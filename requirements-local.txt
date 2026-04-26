@@ -1,0 +1,49 @@
+# Extra dependencies for --provider qwen-local (Qwen2.5-Omni-7B-GPTQ-Int4).
+#
+# Pinned to the stack from the official model card:
+#   https://huggingface.co/Qwen/Qwen2.5-Omni-7B-GPTQ-Int4
+#
+# IMPORTANT — install in this exact order to avoid conflicts:
+#
+#   conda create -n pmsv-local python=3.11 -y
+#   conda activate pmsv-local
+#
+#   # 1. PyTorch — use cu128 build (CUDA 12.8 < driver 12.9 = compatible,
+#   #    and >= 2.6.0 so torch.int1 is available; the PyPI default installs
+#   #    +cu130 which requires a CUDA 13.0 driver and will fail)
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#
+#   # 2. gptqmodel 2.0.0 — released alongside the model; has native Qwen2.5-Omni
+#   #    support and does NOT pull in mainline transformers 5.x
+#   pip install "gptqmodel==2.0.0+cu121torch2.5" \
+#       --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu121/
+#   # If the above wheel is unavailable, try the plain PyPI release:
+#   #   pip install gptqmodel
+#
+#   # 3. Remaining deps (includes the Qwen2.5-Omni transformers preview fork)
+#   pip install -r requirements-local.txt
+#
+#   # 4. Install the project itself
+#   pip install -e .
+#
+# NOTE: optimum is intentionally NOT listed here.  The transformers GPTQ path
+# (which requires optimum) also requires gptqmodel 5.x symbols that don't exist
+# in 2.0.0.  We load via GPTQModel.from_quantized() instead, which needs no
+# optimum at all.
+#
+# To point at a locally cached model instead of downloading from HuggingFace,
+# set QWEN_LOCAL_MODEL_ID=/path/to/Qwen2.5-Omni-7B-GPTQ-Int4 in your .env.
+
+accelerate>=0.30.0
+transformers @ git+https://github.com/huggingface/transformers@v4.51.3-Qwen2.5-Omni-preview
+qwen-omni-utils[decord]
+
+# Base project deps (duplicated here so a fresh env install works in one shot)
+google-genai>=1.0.0
+openai>=1.52.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pydantic>=2.0.0
+matplotlib>=3.8.0
+scipy>=1.12.0
