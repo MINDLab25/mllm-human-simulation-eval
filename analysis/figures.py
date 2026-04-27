@@ -178,6 +178,23 @@ def _weighted_kappa(a: np.ndarray, b: np.ndarray) -> float:
     return cohen_kappa_score(a, b, weights="quadratic")
 
 
+def _icc_a1(x: np.ndarray, y: np.ndarray) -> float:
+    """ICC(A,1): two-way random, absolute agreement, single measure (k=2)."""
+    n = len(x)
+    m = (x + y) / 2
+    mu = m.mean()
+    SSB = 2 * np.sum((m - mu) ** 2)
+    SSW = np.sum((x - m) ** 2 + (y - m) ** 2)
+    SSC = n * ((x.mean() - mu) ** 2 + (y.mean() - mu) ** 2)
+    SSE = SSW - SSC
+    MSB = SSB / (n - 1)
+    MSW = SSW / n
+    MSC = SSC
+    MSE = SSE / (n - 1)
+    denom = MSB + MSW + 2 * (MSC - MSE) / n
+    return float((MSB - MSW) / denom) if denom != 0 else float("nan")
+
+
 # ── Figure 2: participant-level ρ / κ grid ────────────────────────────────────
 
 
@@ -231,14 +248,14 @@ def _kappa_corr_grid_participant(conditions_data: list) -> plt.Figure:
 
     from matplotlib.gridspec import GridSpec
 
-    fig = plt.figure(figsize=(5 * n_cols + 0.8, 11))
+    fig = plt.figure(figsize=(5.8 * n_cols + 0.8, 11))
     gs = GridSpec(
         2,
         n_cols + 1,
         figure=fig,
         width_ratios=[1] * n_cols + [0.05],
         hspace=0.45,
-        wspace=0.3,
+        wspace=0.42,
     )
     axes = np.empty((2, n_cols), dtype=object)
     for r in range(2):
@@ -266,7 +283,7 @@ def _kappa_corr_grid_participant(conditions_data: list) -> plt.Figure:
             )
             last_im[row] = im
 
-            annot = f"κ = {kappa:.2f}"
+            annot = f"ICC = {kappa:.2f}"
             if len(human) >= 2:
                 slope, intercept, r, p, _ = stats.linregress(human, ai)
                 x_line = np.linspace(1, 7, 300)
@@ -287,7 +304,7 @@ def _kappa_corr_grid_participant(conditions_data: list) -> plt.Figure:
                     linewidth=LW["regression"] * 0.55,
                     zorder=5,
                 )
-                annot = f"ρ = {r:.2f}, κ = {kappa:.2f}"
+                annot = f"ρ = {r:.2f}, ICC = {kappa:.2f}"
 
             ax.set_xlim(-0.5, 6.5)
             ax.set_ylim(-0.5, 6.5)
@@ -345,13 +362,9 @@ def gen_fig2(args: argparse.Namespace, out: Path) -> None:
     for label, gcsv, qcsv in conditions:
         df_g = load_participant_agg(gcsv).dropna(subset=["human_msv", "ai_msv"])
         df_q = load_participant_agg(qcsv).dropna(subset=["human_msv", "ai_msv"])
-        kappa_hg = _weighted_kappa(
-            _round_clip(df_g["human_msv"].values), _round_clip(df_g["ai_msv"].values)
-        )
-        kappa_hq = _weighted_kappa(
-            _round_clip(df_q["human_msv"].values), _round_clip(df_q["ai_msv"].values)
-        )
-        grid_data.append((label, df_g, df_q, kappa_hg, kappa_hq))
+        icc_hg = _icc_a1(df_g["human_msv"].values, df_g["ai_msv"].values)
+        icc_hq = _icc_a1(df_q["human_msv"].values, df_q["ai_msv"].values)
+        grid_data.append((label, df_g, df_q, icc_hg, icc_hq))
 
     fig = _kappa_corr_grid_participant(grid_data)
     fig.savefig(out, bbox_inches="tight", dpi=150)

@@ -37,6 +37,7 @@ from figures import (
     LW,
     QWEN_COLOR,
     _ci_band,
+    _icc_a1,
     _round_clip,
     _weighted_kappa,
     load_participant_agg,
@@ -67,9 +68,10 @@ QWEN_DARK = "#a875d6"
 MODEL_SPECS = {
     "qwen": {
         "profile": Path("data/results/qwen_zero_shot.csv"),
-        "shuffled": Path("data/results/qwen_shuffled.csv"),
+        "shuffled": Path("data/results/qwen_shuffled_run_1.csv"),
         "color": QWEN_COLOR,
         "line_color": QWEN_DARK,
+        "shuffled_color": "#00296b",
         "label": "Qwen",
         "out": Path("figures/pmsv_dist_real_vs_shuffle_qwen.pdf"),
         "out_corr": Path("figures/pmsv_corr_agmt_video_qwen.pdf"),
@@ -80,6 +82,7 @@ MODEL_SPECS = {
         "shuffled": Path("data/results/gemini_shuffled.csv"),
         "color": GEMINI_COLOR,
         "line_color": GEMINI_DARK,
+        "shuffled_color": SHUFFLED_COLOR,
         "label": "Gemini",
         "out": Path("figures/pmsv_corr_agmt_video_gemini.pdf"),
         "out_corr": Path("figures/pmsv_corr_agmt_video_gemini.pdf"),
@@ -130,6 +133,7 @@ def _load_model_data(spec: dict) -> dict:
     h_rc = _round_clip(human)
     a_rc = _round_clip(ai)
     kappa = _weighted_kappa(h_rc, a_rc)
+    icc = _icc_a1(human, ai)
 
     mat = np.zeros((7, 7), dtype=int)
     for h, a in zip(h_rc, a_rc):
@@ -147,6 +151,7 @@ def _load_model_data(spec: dict) -> dict:
         human=human,
         ai=ai,
         kappa=kappa,
+        icc=icc,
         mat_pct=mat_pct,
         r=r,
         p=p,
@@ -195,7 +200,7 @@ def _draw_corr_panel(fig, ax_k, cbar_ax, spec: dict, data: dict) -> None:
         zorder=5,
     )
 
-    annot = f"ρ = {data['r']:.2f}"
+    annot = f"ρ = {data['r']:.2f}, ICC = {data['icc']:.2f}"
 
     ax_k.set_xlim(-0.5, 6.5)
     ax_k.set_ylim(-0.5, 6.5)
@@ -230,7 +235,7 @@ def _draw_dist_panel(ax_d, spec: dict, data: dict) -> None:
     ax_d.plot(
         x_grid,
         kde_shuf(x_grid),
-        color=SHUFFLED_COLOR,
+        color=spec.get("shuffled_color", SHUFFLED_COLOR),
         linestyle=SHUFFLED_DASH,
         linewidth=lw * SHUFFLED_LW_SCALE,
         zorder=4,
@@ -259,7 +264,7 @@ def _draw_dist_panel(ax_d, spec: dict, data: dict) -> None:
     shuf_handle = mlines.Line2D(
         [],
         [],
-        color=SHUFFLED_COLOR,
+        color=spec.get("shuffled_color", SHUFFLED_COLOR),
         linestyle=SHUFFLED_DASH,
         linewidth=lw * SHUFFLED_LW_SCALE,
     )
@@ -486,6 +491,7 @@ def _compute_residuals(csv_path: Path) -> tuple[np.ndarray, np.ndarray]:
 def _load_residual_data(spec: dict) -> dict:
     eps_h, eps_a = _compute_residuals(spec["profile"])
     r, _ = stats.pearsonr(eps_h, eps_a)
+    icc = _icc_a1(eps_h, eps_a)
 
     rng = 4.0
     edges = np.linspace(-rng, rng, 14)
@@ -497,6 +503,7 @@ def _load_residual_data(spec: dict) -> dict:
 
     return dict(
         r=r,
+        icc=icc,
         H_pct=H_pct,
         edges=edges,
         x_line=x_line,
@@ -524,7 +531,7 @@ def _draw_residual_panel(fig, ax_k, cbar_ax, spec: dict, data: dict) -> None:
     cbar = fig.colorbar(im, cax=cbar_ax)
     cbar.set_ticks([0, 5, 10])
     cbar.ax.tick_params(labelsize=FS["tick"])
-    cbar.set_label("% of ratings", fontsize=FS["annotation"])
+    cbar.set_label("% of participants", fontsize=FS["annotation"])
 
     ax_k.fill_between(
         data["x_line"],
@@ -549,7 +556,7 @@ def _draw_residual_panel(fig, ax_k, cbar_ax, spec: dict, data: dict) -> None:
     ax_k.set_xlabel("Human", fontsize=FS["axis_label"])
     ax_k.set_ylabel(spec["label"], fontsize=FS["axis_label"])
     ax_k.set_title(
-        f"ρ = {data['r']:.2f}", fontsize=FS["annotation"], fontweight="bold", pad=8
+        f"ρ = {data['r']:.2f}, ICC = {data['icc']:.2f}", fontsize=FS["annotation"], fontweight="bold", pad=8
     )
     ax_k.set_xlim(edges[0], edges[-1])
     ax_k.set_ylim(edges[0], edges[-1])
