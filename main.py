@@ -13,7 +13,7 @@ Usage
     python main.py --new-sample
 
     # Sync — run on a specific saved sample
-    python main.py --sample data/samples/10_percent_sample.csv
+    python main.py --sample data/samples/sample.csv
 
     # Sync — full dataset, 20 workers
     python main.py --full --workers 20

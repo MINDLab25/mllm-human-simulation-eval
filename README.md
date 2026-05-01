@@ -30,7 +30,7 @@ multimodal-pmsv-synth/
 │
 ├── data/
 │   ├── samples/
-│   │   ├── 10_percent_sample.csv    # Canonical 120-video, ~1,000-participant sample
+│   │   ├── sample.csv    # Canonical 120-video, ~1,000-participant sample
 │   │   └── few_shot_examples.csv    # Fixed 3-example pool for few-shot prompts
 │   └── results/                     # Model inference outputs (12 conditions)
 │       ├── gemini_zero_shot.csv
@@ -128,7 +128,7 @@ All data files are subsetted to the 120-video, ~1,000-participant sample used in
 | ------------------------------------ | ----- | --------------------------------------------------------------------------------- |
 | `data/msv_df.csv`                    | 120   | One row per video — metadata, topic labels, engagement stats, and mean human PMSV |
 | `data/msv_df_by_participant.csv`     | 1,010 | One row per participant × video rating — demographics and all 17 PMSV item scores |
-| `data/samples/10_percent_sample.csv` | 1,010 | Sample manifest used for all inference runs                                       |
+| `data/samples/sample.csv` | 1,010 | Sample manifest used for all inference runs                                       |
 | `data/samples/few_shot_examples.csv` | 3     | Fixed examples used in few-shot prompting                                         |
 
 `data/results/` — model inference outputs (one CSV per condition). Each file has one row per participant × video, with columns:
