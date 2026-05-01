@@ -37,7 +37,3 @@ SocialLLM_ICWSM_2026_Short/
 dataset/
 samples/
 
-# Full participant dataset (not distributed — available on request)
-data/msv_df.csv
-data/msv_df_by_participant.csv
-
