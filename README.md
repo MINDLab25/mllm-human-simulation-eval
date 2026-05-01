@@ -1,8 +1,6 @@
 # Multimodal PMSV Synthesis
 
-Code and data for the paper: **"Multimodal Large Language Models as Synthetic Participants**
-
-**in Video-Based Studies: An Evaluation"**
+Code and data for the paper: **"Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation"**
 
 We simulate human Perceived Message Sensation Value (PMSV) ratings of Instagram Reels using multimodal LLMs (Google Gemini, Qwen), conditioning on each participant's demographic profile, and compare AI-simulated ratings against real human survey responses across 120 videos and ~1,000 participants.
 
