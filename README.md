@@ -32,18 +32,16 @@ multimodal-pmsv-synth/
 │   ├── samples/
 │   │   ├── 10_percent_sample.csv    # Canonical 120-video, ~1,000-participant sample
 │   │   └── few_shot_examples.csv    # Fixed 3-example pool for few-shot prompts
-│   └── results/                     # Model inference outputs (14 conditions)
+│   └── results/                     # Model inference outputs (12 conditions)
 │       ├── gemini_zero_shot.csv
 │       ├── gemini_few_shot.csv
 │       ├── gemini_cot.csv
-│       ├── gemini_no_profile.csv
 │       ├── gemini_shuffled.csv
 │       ├── gemini_shuffled_run_2.csv
 │       ├── gemini_shuffled_run_3.csv
 │       ├── qwen_zero_shot.csv
 │       ├── qwen_few_shot.csv
 │       ├── qwen_cot.csv
-│       ├── qwen_no_profile.csv
 │       ├── qwen_shuffled_run_1.csv
 │       ├── qwen_shuffled_run_2.csv
 │       └── qwen_shuffled_run_3.csv
