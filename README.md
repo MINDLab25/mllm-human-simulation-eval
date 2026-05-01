@@ -1,5 +1,7 @@
 # Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation
 
+*To appear at SocialLLM @ ICWSM 2026*
+
 Multimodal large language models (MLLMs) have shown strong performance on objective tasks such as video understanding and reasoning. However, it remains unclear whether they can approximate subjective human responses, which depend not only oncontent comprehension but also on individuals’ social contexts. To address this gap, we evaluate MLLMs as synthetic participants in an emerging task: assessing perceived sensory engagement with short videos. Grounded in the Perceived Message Sensation Value (PMSV) framework, we compare ratings from recruited human participants and profile-conditioned MLLM simulations (n = 673) using a 17-item scale measuring emotional arousal, dramatic impact, and novelty. We find that even leading MLLMs (Gemini 3 Flash and Qwen 3 Omni) show limited agreement with human participants. The models exhibit distinct downward mean-shift and central-tendency biases in their rating distributions. They both introduce and flatten subgroup differences, while showing inconsistent sensitivity to participant profiles. Prompting strategies affect these metrics differently, modestly improving some aspects while worsening others. These results highlight both the challenges and opportunities of developing MLLMs as synthetic participants in videobased research.
 
 ---
@@ -78,10 +80,12 @@ Copy `.env.example` to `.env` and add your API keys:
 cp .env.example .env
 ```
 
+
 | Variable         | Description                          |
 | ---------------- | ------------------------------------ |
 | `GOOGLE_API_KEY` | Gemini API key (aistudio.google.com) |
 | `VIDEO_DIR`      | Local path to the video directory    |
+
 
 > **Note:** Videos are not distributed here due to size and licensing. Contact the authors for access to the full video corpus.
 
@@ -111,10 +115,12 @@ python main.py --provider qwen3-local
 
 **Providers:**
 
-| `--provider`       | Backend                                  | Notes                             |
-| ------------------ | ---------------------------------------- | --------------------------------- |
-| `gemini` (default) | Google Gemini API                        | Requires `GOOGLE_API_KEY`         |
+
+| `--provider`       | Backend                                  | Notes                               |
+| ------------------ | ---------------------------------------- | ----------------------------------- |
+| `gemini` (default) | Google Gemini API                        | Requires `GOOGLE_API_KEY`           |
 | `qwen3-local`      | Local GPU — Qwen3-Omni-30B-A3B-GPTQ-4bit | Requires the `pmsv-qwen3` conda env |
+
 
 See `src/pmsv_synth/prompts/prompts.md` for the full prompt text.
 
@@ -124,12 +130,14 @@ See `src/pmsv_synth/prompts/prompts.md` for the full prompt text.
 
 All data files are subsetted to the 120-video, ~1,000-participant sample used in the paper.
 
+
 | File                                 | Rows  | Description                                                                       |
 | ------------------------------------ | ----- | --------------------------------------------------------------------------------- |
 | `data/msv_df.csv`                    | 120   | One row per video — metadata, topic labels, engagement stats, and mean human PMSV |
 | `data/msv_df_by_participant.csv`     | 1,010 | One row per participant × video rating — demographics and all 17 PMSV item scores |
-| `data/samples/sample.csv` | 1,010 | Sample manifest used for all inference runs                                       |
+| `data/samples/sample.csv`            | 1,010 | Sample manifest used for all inference runs                                       |
 | `data/samples/few_shot_examples.csv` | 3     | Fixed examples used in few-shot prompting                                         |
+
 
 `data/results/` — model inference outputs (one CSV per condition). Each file has one row per participant × video, with columns:
 
@@ -155,6 +163,7 @@ Open `analysis/paper_figures.ipynb` in JupyterLab — it reproduces all figures 
 
 ### Individual scripts
 
+
 | Script                          | Output                                            | Paper                        |
 | ------------------------------- | ------------------------------------------------- | ---------------------------- |
 | `python analysis/figs/fig_2.py` | `figures/pmsv_corr_agmt.pdf`                      | Fig 2: ICC grid              |
@@ -163,6 +172,7 @@ Open `analysis/paper_figures.ipynb` in JupyterLab — it reproduces all figures 
 | `python analysis/figs/fig_5.py` | `figures/pmsv_dist_shuffle_gemini/qwen.pdf`       | Fig 5: Zero-shot vs shuffled |
 | `python analysis/figs/tab_1.py` | stdout                                            | Table 1: ICC by subgroup     |
 
+
 All scripts use the canonical CSVs in `data/results/` by default. Run any script with `--help` to see path override options.
 
 ---
@@ -170,10 +180,11 @@ All scripts use the canonical CSVs in `data/results/` by default. Run any script
 ## Citation
 
 ```bibtex
-@inproceedings{shrestha2026pmsv,
-  title     = {Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation},
-  author    = {Shrestha, Prabal and Jiang, Bohan and Xue, Haoning and Liu, Huan and Zhou, Xinyi},
-  booktitle = {...},
-  year      = {2026}
+@article{shrestha2026mllm,
+  title={Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation},
+  author={Shrestha, Prabal and Jiang, Bohan and Xue, Haoning and Liu, Huan and Zhou, Xinyi},
+  journal={arXiv preprint},
+  year={2026}
 }
 ```
+
