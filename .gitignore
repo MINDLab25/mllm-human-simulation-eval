@@ -14,6 +14,7 @@ __pycache__/
 .vscode/
 .cursor/
 .claude/
+CLAUDE.md
 
 # Videos (large media files — not distributed with code)
 videos/
@@ -23,12 +24,14 @@ outputs/
 graphs/
 logs/
 figures/
+_nb/
 
 # Hugging Face model cache
 .cache/
 
 # Internal / unpublished
 contexts/
+SocialLLM_ICWSM_2026_Short/
 
 # Legacy directories (superseded by data/)
 dataset/
@@ -38,6 +41,3 @@ samples/
 data/msv_df.csv
 data/msv_df_by_participant.csv
 
-
-
-data/results/

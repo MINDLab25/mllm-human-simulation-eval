@@ -1,0 +1,2314 @@
+participant_id,video_id,survey_batch_id,age,gender,race,education,income,sen_seek,human_perceived_msv,predicted_msv,cot_reasoning,thought_summary,example_pairs,raw_response,human_emotional,human_arousing,human_involving,human_exciting,human_powerful_impact,human_stimulating,human_strong_visual,human_strong_soundeffect,human_dramatic,human_graphic,human_creative,human_goosebump,human_intense,human_strong_soundtrack,human_novel,human_unique,human_unusual,ai_emotional,ai_arousing,ai_involving,ai_exciting,ai_powerful_impact,ai_stimulating,ai_strong_visual,ai_strong_soundeffect,ai_dramatic,ai_graphic,ai_creative,ai_goosebump,ai_intense,ai_strong_soundtrack,ai_novel,ai_unique,ai_unusual
+525,525,4_30,,,,,,,5.311764706,4.9411764705882355,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""unusual"": 5,
+  ""emotional"": 6,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""arousing"": 4,
+  ""involving"": 6,
+  ""stimulating"": 5,
+  ""powerful_impact"": 6,
+  ""creative"": 5,
+  ""graphic"": 3,
+  ""goosebump"": 5,
+  ""intense"": 5,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 5
+}
+```",6.1,4.5,6.1,5.0,6.1,6.0,5.9,5.6,5.8,4.2,5.9,2.9,5.4,5.4,5.2,5.4,4.8,6,4,6,5,6,5,5,3,5,3,5,5,5,4,6,6,5
+1097,1097,9_113,,,,,,,3.654411765,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""creative"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""dramatic"": 4,
+  ""graphic"": 4,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4
+}
+```",3.375,4.0,3.625,3.625,3.0,3.75,4.375,3.625,4.5,3.875,4.0,2.875,3.375,5.5,2.75,3.0,2.875,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+856,856,7_112,,,,,,,4.316176471,4.823529411764706,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""emotional"": 5,
+  ""arousing"": 4,
+  ""involving"": 5,
+  ""exciting"": 5,
+  ""powerful_impact"": 5,
+  ""stimulating"": 5,
+  ""strong_visual"": 5,
+  ""strong_soundeffect"": 5,
+  ""strong_soundtrack"": 5,
+  ""dramatic"": 5,
+  ""intense"": 5,
+  ""goosebump"": 4,
+  ""creative"": 5,
+  ""graphic"": 4
+}
+```",3.625,3.625,2.75,3.75,4.5,4.0,4.75,4.0,5.25,4.25,4.5,2.5,4.875,4.75,5.0,5.5,5.75,5,4,5,5,5,5,5,5,5,4,5,4,5,5,5,5,5
+624,624,5_12,,,,,,,4.485294118,3.588235294117647,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 3,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 3,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""strong_soundtrack"": 3,
+  ""goosebump"": 3,
+  ""creative"": 3,
+  ""graphic"": 3,
+  ""unusual"": 4
+}
+```",5.5,2.875,4.625,4.25,5.25,4.75,4.875,4.5,5.375,4.25,3.5,2.5,5.5,5.75,4.625,3.5,4.625,4,3,4,3,4,3,4,3,4,3,3,3,3,3,5,5,4
+534,534,4_39,,,,,,,4.647058824,5.764705882352941,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 5,
+  ""exciting"": 6,
+  ""strong_visual"": 6,
+  ""arousing"": 5,
+  ""involving"": 6,
+  ""powerful_impact"": 6,
+  ""stimulating"": 6,
+  ""strong_soundeffect"": 6,
+  ""dramatic"": 6,
+  ""intense"": 6,
+  ""strong_soundtrack"": 6,
+  ""creative"": 6,
+  ""graphic"": 5,
+  ""goosebump"": 5,
+  ""unusual"": 6
+}
+```",4.0,3.625,4.875,4.625,4.5,4.625,5.375,4.75,5.5,4.625,5.875,3.125,5.625,5.625,3.625,4.5,4.125,5,5,6,6,6,6,6,6,6,5,6,5,6,6,6,6,6
+362,362,3_10,,,,,,,3.676470588,5.0,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""novel"": 5,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""creative"": 5,
+  ""graphic"": 5,
+  ""arousing"": 5,
+  ""involving"": 5,
+  ""intense"": 5,
+  ""strong_soundtrack"": 5,
+  ""dramatic"": 5,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 5,
+  ""goosebump"": 5,
+  ""powerful_impact"": 5
+}
+```",3.625,3.5,3.625,3.375,4.125,3.375,4.25,3.625,5.0,3.875,3.75,2.25,4.0,4.25,3.125,3.625,3.125,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+1038,1038,8_60,,,,,,,3.169117647,4.705882352941177,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""unusual"": 6,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""arousing"": 4,
+  ""involving"": 5,
+  ""stimulating"": 5,
+  ""powerful_impact"": 5,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""creative"": 5,
+  ""graphic"": 2,
+  ""strong_soundtrack"": 5,
+  ""strong_soundeffect"": 4
+}
+```",2.625,2.875,2.625,3.375,2.875,3.125,4.0,3.25,3.375,2.875,3.25,2.375,3.125,4.0,3.5,3.25,3.375,5,4,5,5,5,5,5,4,4,2,5,4,4,5,6,6,6
+279,279,2_25,,,,,,,3.831932773,3.6470588235294117,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""goosebump"": 3,
+  ""intense"": 3,
+  ""dramatic"": 3,
+  ""creative"": 4,
+  ""graphic"": 2,
+  ""strong_soundtrack"": 3,
+  ""strong_soundeffect"": 3,
+  ""unusual"": 4,
+  ""novel"": 5,
+  ""unique"": 5
+}
+```",3.714285714,3.857142857,4.142857143,4.142857143,3.428571429,4.0,4.428571429,2.571428571,4.285714286,4.0,3.857142857,2.428571429,3.571428571,2.571428571,4.714285714,4.857142857,4.571428571,4,3,4,4,4,4,4,3,3,2,4,3,3,3,5,5,4
+954,954,7_93,,,,,,,4.050420168,3.9411764705882355,,,,"{""novel"": 5, ""unique"": 5, ""emotional"": 6, ""arousing"": 4, ""involving"": 6, ""exciting"": 4, ""strong_visual"": 3, ""strong_soundeffect"": 2, ""dramatic"": 5, ""graphic"": 2, ""creative"": 4, ""goosebump"": 3, ""intense"": 4, ""strong_soundtrack"": 2, ""novel"": 5, ""unique"": 5, ""unusual"": 4}",5.428571429,4.285714286,5.142857143,4.142857143,5.0,4.714285714,2.571428571,2.428571429,4.142857143,2.428571429,4.285714286,3.285714286,4.571428571,2.428571429,4.571428571,4.857142857,4.571428571,6,4,6,4,4,4,3,2,5,2,4,3,4,2,5,5,4
+263,263,2_119,,,,,,,3.676470588,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",2.2,2.6,3.4,3.6,3.5,3.3,4.4,4.1,4.6,3.5,4.0,1.8,4.0,4.7,4.0,4.4,4.4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+370,370,3_107,,,,,,,3.732026144,3.8823529411764706,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4,
+  ""goosebump"": 3,
+  ""creative"": 4,
+  ""graphic"": 2,
+  ""unusual"": 4
+}
+```",3.444444444,2.666666667,3.888888889,3.0,3.222222222,4.111111111,4.666666667,3.222222222,4.666666667,3.333333333,4.333333333,2.333333333,3.222222222,3.777777778,4.222222222,4.888888889,4.444444444,4,3,4,4,4,4,4,4,4,2,4,3,4,4,5,5,4
+831,831,6_90,,,,,,,3.078431373,4.176470588235294,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""emotional"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 5,
+  ""strong_soundeffect"": 5,
+  ""strong_soundtrack"": 5,
+  ""creative"": 4,
+  ""graphic"": 3,
+  ""goosebump"": 3,
+  ""intense"": 4,
+  ""dramatic"": 4
+}
+```",2.333333333,2.333333333,2.444444444,2.666666667,2.222222222,2.777777778,5.0,4.222222222,3.444444444,2.777777778,3.888888889,2.222222222,2.666666667,4.444444444,2.666666667,2.555555556,3.666666667,4,3,4,4,4,4,5,5,4,3,4,3,4,5,5,5,5
+135,135,10_111,,,,,,,3.654411765,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",3.125,3.625,3.25,4.125,2.875,3.625,3.5,3.875,3.875,3.25,3.875,2.375,3.875,4.875,3.875,4.375,3.75,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+736,736,6_112,,,,,,,4.77124183,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 4,
+  ""arousing"": 4,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""involving"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""dramatic"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""unique"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 4,
+  ""arousing"": 4,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""involving"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""dramatic"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""unusual"": 4
+}
+```",3.666666667,3.555555556,5.666666667,5.444444444,5.111111111,4.555555556,5.333333333,5.0,4.555555556,5.0,5.222222222,3.0,4.333333333,5.444444444,5.111111111,5.333333333,4.777777778,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1088,1088,9_105,,,,,,,3.647058824,4.823529411764706,,,,"{""novel"": 4, ""unique"": 4, ""unusual"": 4, ""novelty"": 4, ""emotional"": 5, ""arousing"": 5, ""involving"": 5, ""exciting"": 5, ""powerful_impact"": 5, ""stimulating"": 5, ""strong_visual"": 5, ""strong_soundeffect"": 5, ""dramatic"": 5, ""intense"": 5, ""strong_soundtrack"": 5, ""creative"": 5, ""graphic"": 5, ""goosebump"": 5}",3.777777778,4.222222222,3.555555556,3.888888889,3.888888889,3.777777778,3.777777778,3.777777778,3.666666667,3.444444444,3.333333333,3.222222222,3.444444444,3.222222222,3.555555556,3.666666667,3.777777778,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4
+257,257,2_113,,,,,,,1.935294118,3.0,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""novelty"": 3,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""stimulating"": 3,
+  ""powerful_impact"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 3,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""creative"": 3,
+  ""graphic"": 3
+}
+```",2.0,1.6,1.8,2.0,1.6,1.7,1.9,2.4,1.8,2.0,2.0,1.2,1.6,1.7,2.5,1.9,3.2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+681,681,5_63,,,,,,,3.215686275,5.0,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 6,
+  ""unusual"": 6,
+  ""novel"": 5,
+  ""emotional"": 5,
+  ""exciting"": 6,
+  ""strong_visual"": 5,
+  ""creative"": 5,
+  ""graphic"": 3,
+  ""arousing"": 4,
+  ""involving"": 6,
+  ""powerful_impact"": 5,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 5,
+  ""dramatic"": 5,
+  ""intense"": 5,
+  ""strong_soundtrack"": 5,
+  ""goosebump"": 4
+}
+```",3.555555556,2.555555556,3.333333333,3.111111111,2.888888889,3.888888889,3.333333333,3.444444444,3.888888889,2.222222222,3.333333333,1.444444444,3.111111111,4.333333333,3.111111111,3.222222222,3.888888889,5,4,6,6,5,5,5,5,5,3,5,4,5,5,5,6,6
+833,833,6_92,,,,,,,2.352941176,2.7058823529411766,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""stimulating"": 3,
+  ""powerful_impact"": 2,
+  ""strong_soundeffect"": 2,
+  ""dramatic"": 2,
+  ""intense"": 2,
+  ""strong_soundtrack"": 2,
+  ""creative"": 3,
+  ""graphic"": 2,
+  ""goosebump"": 2
+}
+```",1.555555556,1.555555556,2.0,2.555555556,2.111111111,2.222222222,2.777777778,2.888888889,2.888888889,3.333333333,2.555555556,1.333333333,2.666666667,2.777777778,2.222222222,2.0,2.555555556,3,2,3,3,2,3,3,2,2,2,3,2,2,2,4,4,4
+701,701,5_81,,,,,,,2.786764706,4.117647058823529,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 5,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 5,
+  ""strong_soundtrack"": 5,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 3,
+  ""creative"": 4,
+  ""graphic"": 2
+}
+```",2.375,3.0,2.75,2.75,2.625,2.5,3.0,2.875,3.0,2.75,2.875,1.875,2.5,4.125,2.375,3.125,2.875,4,4,4,5,4,4,4,5,4,2,4,3,4,5,5,5,4
+1004,1004,8_3,,,,,,,3.163398693,3.176470588235294,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""novelty"": 3,
+  ""emotional"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""exciting"": 3,
+  ""powerful_impact"": 4,
+  ""stimulating"": 3,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""creative"": 3,
+  ""graphic"": 1
+}
+```",2.444444444,3.222222222,3.666666667,3.666666667,3.333333333,3.333333333,3.666666667,3.444444444,4.222222222,2.777777778,3.222222222,2.444444444,2.777777778,3.444444444,2.555555556,2.777777778,2.777777778,4,3,4,3,4,3,4,3,4,1,3,3,3,3,3,3,3
+650,650,5_35,,,,,,,2.617647059,3.235294117647059,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""novelty"": 3,
+  ""emotional"": 5,
+  ""strong_visual"": 4,
+  ""exciting"": 3,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 3,
+  ""powerful_impact"": 4,
+  ""creative"": 3,
+  ""goosebump"": 3,
+  ""intense"": 3,
+  ""dramatic"": 3,
+  ""strong_soundtrack"": 3,
+  ""strong_soundeffect"": 3,
+  ""graphic"": 2
+}
+```",2.375,3.0,2.625,2.75,2.375,3.0,1.75,2.125,4.625,2.375,2.625,2.625,3.25,2.625,2.0,2.25,2.125,5,3,4,3,4,3,4,3,3,2,3,3,3,3,3,3,3
+394,394,3_20,,,,,,,2.87394958,4.352941176470588,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 6,
+  ""strong_visual"": 5,
+  ""powerful_impact"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 5,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 5,
+  ""creative"": 4,
+  ""goosebump"": 3,
+  ""graphic"": 3,
+  ""unusual"": 5
+}
+```",2.142857143,2.428571429,3.142857143,3.0,2.0,2.857142857,3.857142857,3.428571429,3.285714286,2.857142857,2.857142857,1.142857143,2.857142857,3.0,2.714285714,4.142857143,3.142857143,4,3,4,6,4,5,5,5,4,3,4,3,4,5,5,5,5
+832,832,6_91,,,,,,,3.683823529,3.2941176470588234,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 3,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""stimulating"": 3,
+  ""powerful_impact"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 3,
+  ""intense"": 2,
+  ""goosebump"": 2,
+  ""creative"": 4,
+  ""graphic"": 1
+}
+```",3.875,3.0,3.625,3.0,3.25,3.5,4.75,4.375,4.625,3.5,3.75,2.625,3.375,5.375,3.375,3.25,3.375,4,3,3,3,3,3,4,3,3,1,4,2,2,4,5,5,4
+40,40,1_26,,,,,,,2.496732026,2.764705882352941,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 4,
+  ""creative"": 3,
+  ""graphic"": 2,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""stimulating"": 3,
+  ""strong_soundeffect"": 2,
+  ""dramatic"": 2,
+  ""intense"": 2,
+  ""strong_soundtrack"": 2,
+  ""goosebump"": 2,
+  ""powerful_impact"": 2
+}
+```",2.888888889,3.111111111,2.777777778,2.333333333,1.777777778,3.111111111,4.0,3.0,1.888888889,2.555555556,2.444444444,2.222222222,1.777777778,2.0,2.333333333,2.333333333,1.888888889,3,2,3,3,2,3,4,2,2,2,3,2,2,2,4,4,4
+498,498,4_114,,,,,,,3.575163399,3.9411764705882355,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""goosebump"": 3,
+  ""graphic"": 3,
+  ""unusual"": 4,
+  ""powerful_impact"": 4
+}
+```",3.222222222,3.888888889,3.444444444,3.888888889,3.666666667,3.666666667,4.111111111,3.777777778,4.222222222,2.888888889,3.444444444,2.444444444,3.666666667,4.0,3.555555556,3.333333333,3.555555556,4,3,4,4,4,4,4,4,4,3,4,3,4,4,5,5,4
+47,47,1_32,,,,,,,4.784313725,4.294117647058823,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""powerful_impact"": 5,
+  ""arousing"": 4,
+  ""stimulating"": 4,
+  ""involving"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""goosebump"": 3,
+  ""graphic"": 3,
+  ""unusual"": 3
+}
+```",4.555555556,3.555555556,5.444444444,4.777777778,5.555555556,4.888888889,5.222222222,4.777777778,4.222222222,4.666666667,5.666666667,2.666666667,3.777777778,5.111111111,5.444444444,5.555555556,5.444444444,5,4,4,5,5,4,5,4,4,3,4,3,4,4,6,6,3
+662,662,5_46,,,,,,,2.333333333,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",2.0,1.555555556,2.333333333,2.222222222,2.555555556,2.333333333,2.666666667,3.222222222,1.777777778,2.888888889,2.555555556,1.222222222,2.0,4.111111111,2.111111111,2.222222222,1.888888889,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+432,432,3_55,,,,,,,2.617647059,3.0,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""novelty"": 3,
+  ""emotional"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""exciting"": 3,
+  ""powerful_impact"": 3,
+  ""stimulating"": 3,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 3,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""creative"": 3,
+  ""graphic"": 3
+}
+```",1.75,1.625,3.25,2.875,2.75,3.0,3.5,3.625,2.125,2.25,3.0,1.375,2.0,4.25,2.375,2.25,2.5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+980,980,8_116,,,,,,,4.058823529,4.411764705882353,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 6,
+  ""unusual"": 6,
+  ""emotional"": 5,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 3,
+  ""powerful_impact"": 5,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 5,
+  ""creative"": 5,
+  ""graphic"": 2,
+  ""strong_soundtrack"": 6,
+  ""strong_soundeffect"": 4
+}
+```",4.25,3.875,4.25,4.0,3.875,3.875,4.625,3.75,4.125,3.5,4.5,3.0,3.5,4.875,4.5,4.625,3.875,5,3,4,4,5,3,4,4,5,2,5,4,4,6,5,6,6
+708,708,5_88,,,,,,,3.575163399,5.823529411764706,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""emotional"": 6,
+  ""exciting"": 6,
+  ""strong_visual"": 6,
+  ""arousing"": 6,
+  ""involving"": 6,
+  ""stimulating"": 6,
+  ""powerful_impact"": 6,
+  ""goosebump"": 6,
+  ""intense"": 6,
+  ""dramatic"": 6,
+  ""creative"": 6,
+  ""graphic"": 6,
+  ""strong_soundtrack"": 6,
+  ""strong_soundeffect"": 6
+}
+```",2.888888889,2.888888889,4.222222222,3.777777778,3.666666667,3.666666667,3.666666667,4.666666667,3.333333333,3.0,3.222222222,2.0,3.777777778,4.333333333,3.555555556,4.222222222,3.888888889,6,6,6,6,6,6,6,6,6,6,6,6,6,6,5,5,5
+520,520,4_26,,,,,,,4.307189542,5.117647058823529,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""unusual"": 5,
+  ""emotional"": 6,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""arousing"": 5,
+  ""involving"": 6,
+  ""stimulating"": 5,
+  ""powerful_impact"": 6,
+  ""creative"": 5,
+  ""graphic"": 4,
+  ""goosebump"": 5,
+  ""intense"": 5,
+  ""dramatic"": 5,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4
+}
+```",5.0,4.555555556,4.666666667,4.222222222,5.111111111,4.888888889,4.666666667,3.0,4.444444444,3.444444444,4.666666667,3.555555556,4.333333333,2.444444444,5.111111111,5.0,4.111111111,6,5,6,5,6,5,5,4,5,4,5,5,5,4,6,6,5
+464,464,3_84,,,,,,,2.420168067,3.764705882352941,,,,"{""novel"": 5, ""unique"": 5, ""powerful_impact"": 4, ""goosebump"": 3, ""novel"": 5, ""emotional"": 4, ""exciting"": 5, ""strong_visual"": 4, ""creative"": 4, ""graphic"": 2, ""arousing"": 3, ""unusual"": 4, ""involving"": 4, ""intense"": 3, ""strong_soundtrack"": 4, ""dramatic"": 3, ""stimulating"": 4, ""strong_soundeffect"": 3}",2.428571429,3.428571429,2.428571429,1.571428571,1.285714286,2.857142857,3.714285714,1.0,3.285714286,4.428571429,3.285714286,1.0,2.571428571,1.0,2.142857143,1.571428571,3.142857143,4,3,4,5,4,4,4,3,3,2,4,3,3,4,5,5,4
+372,372,3_109,,,,,,,3.315508021,5.294117647058823,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 6,
+  ""exciting"": 6,
+  ""strong_visual"": 5,
+  ""arousing"": 6,
+  ""involving"": 6,
+  ""stimulating"": 6,
+  ""powerful_impact"": 6,
+  ""creative"": 5,
+  ""graphic"": 3,
+  ""goosebump"": 5,
+  ""intense"": 6,
+  ""strong_soundtrack"": 6,
+  ""strong_soundeffect"": 6,
+  ""dramatic"": 6
+}
+```",3.181818182,3.363636364,3.727272727,3.727272727,3.272727273,3.727272727,3.636363636,4.181818182,3.272727273,2.363636364,2.545454545,2.727272727,3.363636364,4.272727273,3.090909091,2.909090909,3.0,6,6,6,6,6,6,5,6,6,3,5,5,6,6,4,4,4
+775,775,6_4,,,,,,,2.926470588,2.5294117647058822,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""arousing"": 2,
+  ""stimulating"": 2,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 2,
+  ""strong_soundtrack"": 2,
+  ""involving"": 2,
+  ""powerful_impact"": 2,
+  ""creative"": 3,
+  ""dramatic"": 2,
+  ""intense"": 2,
+  ""goosebump"": 2,
+  ""graphic"": 1
+}
+```",2.75,2.75,2.75,2.875,2.875,2.75,3.375,2.125,2.5,2.5,3.75,2.25,2.625,1.875,3.625,4.25,4.125,3,2,2,3,2,2,3,2,2,1,3,2,2,2,4,4,4
+72,72,1_55,,,,,,,2.026143791,2.6470588235294117,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 3,
+  ""arousing"": 2,
+  ""involving"": 2,
+  ""exciting"": 2,
+  ""powerful_impact"": 2,
+  ""stimulating"": 2,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 2,
+  ""intense"": 2,
+  ""goosebump"": 2,
+  ""creative"": 3,
+  ""graphic"": 2
+}
+```",1.555555556,1.444444444,1.888888889,1.555555556,2.333333333,1.444444444,2.444444444,2.444444444,2.0,2.444444444,2.333333333,2.222222222,2.111111111,2.777777778,1.555555556,2.222222222,1.666666667,3,2,2,2,2,2,3,3,2,2,3,2,2,3,4,4,4
+285,285,2_30,,,,,,,4.051470588,4.647058823529412,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 5,
+  ""exciting"": 4,
+  ""strong_visual"": 5,
+  ""powerful_impact"": 5,
+  ""arousing"": 4,
+  ""involving"": 5,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 5,
+  ""intense"": 4,
+  ""strong_soundtrack"": 5,
+  ""creative"": 5,
+  ""goosebump"": 4,
+  ""graphic"": 3,
+  ""unusual"": 5
+}
+```",4.625,3.5,4.625,3.75,4.625,4.625,4.5,4.125,4.375,3.0,4.5,2.375,3.75,4.875,4.0,3.875,3.75,5,4,5,4,5,4,5,4,5,3,5,4,4,5,6,6,5
+914,914,7_57,,,,,,,2.022058824,2.411764705882353,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""novelty"": 3,
+  ""emotional"": 2,
+  ""arousing"": 2,
+  ""involving"": 2,
+  ""exciting"": 2,
+  ""powerful_impact"": 2,
+  ""stimulating"": 2,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 2,
+  ""intense"": 2,
+  ""strong_soundtrack"": 3,
+  ""creative"": 3,
+  ""goosebump"": 2,
+  ""graphic"": 2
+}
+```",1.375,1.75,2.25,2.0,1.875,2.375,2.75,1.75,2.0,2.0,1.875,1.625,1.75,4.0,1.75,1.875,1.375,2,2,2,2,2,2,3,3,2,2,3,2,2,3,3,3,3
+190,190,10_53,,,,,,,3.397058824,2.823529411764706,,,,"{""novel"": 4, ""unique"": 4, ""powerful_impact"": 3, ""goosebump"": 2, ""emotional"": 3, ""exciting"": 3, ""strong_visual"": 4, ""creative"": 4, ""graphic"": 1, ""arousing"": 2, ""unusual"": 4, ""involving"": 3, ""intense"": 2, ""strong_soundtrack"": 2, ""stimulating"": 3, ""strong_soundeffect"": 2, ""dramatic"": 2}",1.875,3.25,4.375,3.75,3.75,3.25,4.125,4.0,2.25,3.5,4.75,1.25,2.5,3.875,3.0,5.0,3.25,3,2,3,3,3,3,4,2,2,1,4,2,2,2,4,4,4
+1177,1177,9_78,,,,,,,2.74789916,3.4705882352941178,,,,"```json
+{
+  ""unique"": 5,
+  ""powerful_impact"": 4,
+  ""goosebump"": 3,
+  ""novel"": 4,
+  ""emotional"": 5,
+  ""exciting"": 4,
+  ""strong_visual"": 3,
+  ""creative"": 4,
+  ""graphic"": 2,
+  ""arousing"": 3,
+  ""unusual"": 4,
+  ""involving"": 4,
+  ""intense"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 3,
+  ""stimulating"": 3,
+  ""strong_soundeffect"": 2
+}
+```",4.142857143,2.428571429,3.285714286,3.0,3.285714286,3.285714286,2.714285714,1.857142857,3.285714286,1.857142857,2.0,2.714285714,3.857142857,1.428571429,2.428571429,2.428571429,2.714285714,5,3,4,4,4,3,3,2,3,2,4,3,3,3,4,5,4
+434,434,3_57,,,,,,,3.397058824,4.294117647058823,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 6,
+  ""strong_visual"": 5,
+  ""arousing"": 3,
+  ""involving"": 5,
+  ""powerful_impact"": 4,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 5,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 5,
+  ""goosebump"": 3,
+  ""creative"": 4,
+  ""graphic"": 2,
+  ""unusual"": 4,
+  ""novel"": 5,
+  ""unique"": 5
+}
+```",2.5,4.875,3.625,3.75,4.125,5.25,5.25,3.25,2.625,1.875,2.625,1.875,4.0,4.75,2.375,2.75,2.25,4,3,5,6,4,5,5,5,4,2,4,3,4,5,5,5,4
+381,381,3_117,,,,,,,3.692810458,4.235294117647059,,,,"{""novel"": 4, ""unique"": 4, ""unusual"": 4, ""emotional"": 5, ""exciting"": 5, ""strong_visual"": 4, ""arousing"": 4, ""involving"": 5, ""stimulating"": 5, ""strong_soundeffect"": 4, ""dramatic"": 4, ""intense"": 4, ""strong_soundtrack"": 4, ""goosebump"": 4, ""creative"": 4, ""graphic"": 3, ""powerful_impact"": 5}",4.444444444,3.555555556,3.666666667,3.777777778,3.777777778,4.111111111,3.444444444,4.222222222,4.777777778,3.222222222,3.888888889,2.777777778,3.222222222,3.888888889,3.0,3.555555556,3.444444444,5,4,5,5,5,5,4,4,4,3,4,4,4,4,4,4,4
+559,559,4_61,,,,,,,4.757352941,2.8823529411764706,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 4,
+  ""creative"": 4,
+  ""graphic"": 1,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""intense"": 2,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 2,
+  ""stimulating"": 3,
+  ""strong_soundeffect"": 3,
+  ""goosebump"": 1,
+  ""powerful_impact"": 2
+}
+```",3.875,4.0,5.375,5.375,5.125,4.75,5.125,5.5,4.0,4.0,5.125,4.25,5.0,5.25,4.625,5.625,3.875,3,2,3,3,2,3,4,3,2,1,4,1,2,4,4,4,4
+667,667,5_50,,,,,,,3.8,4.764705882352941,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""creative"": 4,
+  ""graphic"": 5,
+  ""arousing"": 5,
+  ""involving"": 5,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 5,
+  ""dramatic"": 5,
+  ""intense"": 5,
+  ""strong_soundtrack"": 5,
+  ""goosebump"": 5,
+  ""powerful_impact"": 5
+}
+```",4.6,3.1,4.1,3.7,3.0,4.0,4.6,4.0,5.7,4.0,3.4,2.0,4.5,3.9,2.8,3.4,3.8,5,5,5,5,5,5,5,5,5,5,4,5,5,5,4,4,4
+111,111,1_90,,,,,,,2.852941176,2.764705882352941,,,,"```json
+{
+  ""unique"": 4,
+  ""powerful_impact"": 3,
+  ""goosebump"": 2,
+  ""novel"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""creative"": 3,
+  ""graphic"": 1,
+  ""arousing"": 2,
+  ""unusual"": 3,
+  ""involving"": 3,
+  ""intense"": 2,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 2,
+  ""stimulating"": 2,
+  ""strong_soundeffect"": 3
+}
+```",3.0,3.0,3.25,2.625,2.5,3.0,4.0,2.375,2.625,2.625,3.625,1.875,2.25,4.875,2.125,2.5,2.25,3,2,3,3,3,2,3,3,2,1,3,2,2,4,4,4,3
+999,999,8_25,,,,,,,4.437908497,4.0,,,,"{""novel"": 4, ""unique"": 4, ""unusual"": 4, ""novelty"": 4, ""emotional"": 4, ""arousing"": 4, ""involving"": 4, ""exciting"": 4, ""powerful_impact"": 4, ""stimulating"": 4, ""strong_visual"": 4, ""strong_soundeffect"": 4, ""dramatic"": 4, ""intense"": 4, ""strong_soundtrack"": 4, ""creative"": 4, ""graphic"": 4, ""goosebump"": 4}",4.666666667,3.444444444,4.111111111,5.111111111,5.0,4.888888889,5.0,1.888888889,5.555555556,6.0,3.777777778,3.777777778,5.555555556,1.444444444,5.0,5.333333333,4.888888889,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+175,175,10_4,,,,,,,2.843137255,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",2.777777778,2.555555556,2.777777778,2.555555556,3.111111111,2.666666667,2.888888889,3.111111111,3.333333333,2.333333333,2.444444444,1.777777778,3.0,3.222222222,2.666666667,3.444444444,3.666666667,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+609,609,5_106,,,,,,,3.242647059,3.6470588235294117,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 5,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 4,
+  ""arousing"": 3,
+  ""stimulating"": 4,
+  ""involving"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""goosebump"": 2,
+  ""creative"": 4,
+  ""graphic"": 2,
+  ""unusual"": 4,
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 4,
+  ""exciting"": 5,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 4,
+  ""arousing"": 3,
+  ""stimulating"": 4,
+  ""involving"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""goosebump"": 2,
+  ""creative"": 4,
+  ""graphic"": 2,
+  ""unusual"": 4
+}
+```",2.75,2.875,2.75,3.625,3.0,3.625,3.875,2.75,4.125,3.875,3.75,2.25,3.0,2.875,3.375,3.375,3.25,4,3,3,5,4,4,4,3,4,2,4,2,3,3,5,5,4
+89,89,1_70,,,,,,,3.198529412,5.0,,,,"```json
+{
+  ""unique"": 4,
+  ""powerful_impact"": 6,
+  ""goosebump"": 5,
+  ""novel"": 3,
+  ""emotional"": 6,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""creative"": 4,
+  ""graphic"": 6,
+  ""arousing"": 5,
+  ""unusual"": 4,
+  ""involving"": 6,
+  ""intense"": 6,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 6,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 5,
+  ""novel"": 3
+}
+```",4.625,3.75,3.375,3.0,3.375,3.0,1.875,1.5,4.25,4.0,1.875,2.375,4.75,1.625,3.25,3.75,4.0,6,5,6,5,6,5,5,5,6,6,4,5,6,4,3,4,4
+213,213,10_74,,,,,,,2.75,3.764705882352941,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""novelty"": 3,
+  ""emotional"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",2.75,2.0,2.375,2.75,2.375,2.375,1.875,2.375,3.625,2.25,2.5,2.625,3.0,2.625,3.25,3.625,4.375,4,3,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3
+473,473,3_92,,,,,,,4.60130719,3.6470588235294117,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""emotional"": 5,
+  ""strong_visual"": 4,
+  ""exciting"": 4,
+  ""arousing"": 3,
+  ""involving"": 5,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""creative"": 4,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""dramatic"": 3,
+  ""strong_soundtrack"": 3,
+  ""strong_soundeffect"": 3,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""graphic"": 2
+}
+```",6.222222222,3.888888889,6.222222222,5.111111111,5.888888889,5.777777778,3.555555556,1.777777778,5.444444444,2.333333333,5.222222222,3.444444444,5.333333333,1.888888889,5.666666667,5.666666667,4.777777778,5,3,5,4,4,4,4,3,3,2,4,3,3,3,4,4,4
+134,134,10_110,,,,,,,2.777777778,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4
+}
+```",2.111111111,2.555555556,2.222222222,2.555555556,2.333333333,3.111111111,2.888888889,4.222222222,3.444444444,3.111111111,2.222222222,1.666666667,2.777777778,4.333333333,2.555555556,2.444444444,2.666666667,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1087,1087,9_104,,,,,,,4.554621849,3.411764705882353,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 5,
+  ""arousing"": 3,
+  ""involving"": 5,
+  ""exciting"": 3,
+  ""powerful_impact"": 5,
+  ""stimulating"": 3,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 2,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""strong_soundtrack"": 2,
+  ""creative"": 3,
+  ""goosebump"": 3,
+  ""graphic"": 2
+}
+```",5.857142857,3.571428571,5.428571429,4.571428571,5.428571429,4.285714286,3.857142857,3.857142857,5.428571429,4.0,4.0,2.714285714,5.142857143,5.0,4.571428571,5.428571429,4.285714286,5,3,5,3,5,3,3,2,4,2,3,3,3,2,4,4,4
+511,511,4_18,,,,,,,3.0,3.176470588235294,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""exciting"": 3,
+  ""powerful_impact"": 3,
+  ""stimulating"": 3,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 3,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""graphic"": 3,
+  ""creative"": 3
+}
+```",2.625,2.75,3.125,2.5,2.875,3.125,3.5,2.75,4.0,3.0,2.875,2.25,3.375,3.0,3.0,3.0,3.25,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4
+97,97,1_78,,,,,,,3.764705882,3.823529411764706,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""creative"": 4,
+  ""graphic"": 1,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""stimulating"": 4,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4,
+  ""goosebump"": 4,
+  ""powerful_impact"": 4
+}
+```",4.5,2.5,4.0,3.625,4.375,4.375,3.875,4.375,4.25,2.625,3.875,3.625,3.75,3.5,3.625,4.0,3.125,4,4,4,4,4,4,4,4,4,1,4,4,4,4,4,4,4
+814,814,6_75,,,,,,,2.722689076,2.5294117647058822,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""emotional"": 4,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""stimulating"": 2,
+  ""powerful_impact"": 2,
+  ""creative"": 3,
+  ""goosebump"": 2,
+  ""intense"": 2,
+  ""dramatic"": 2,
+  ""graphic"": 1,
+  ""strong_soundtrack"": 3,
+  ""strong_soundeffect"": 2
+}
+```",3.285714286,2.142857143,2.428571429,2.571428571,3.428571429,3.0,2.285714286,2.571428571,2.571428571,2.0,2.857142857,2.571428571,1.857142857,2.428571429,3.428571429,3.285714286,3.571428571,4,2,3,3,2,2,3,2,2,1,3,2,2,3,3,3,3
+793,793,6_56,,,,,,,3.183006536,2.9411764705882355,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""emotional"": 3,
+  ""arousing"": 2,
+  ""involving"": 4,
+  ""exciting"": 3,
+  ""powerful_impact"": 2,
+  ""stimulating"": 3,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 2,
+  ""dramatic"": 2,
+  ""goosebump"": 1,
+  ""intense"": 1,
+  ""creative"": 4,
+  ""graphic"": 1
+}
+```",1.666666667,2.555555556,3.777777778,4.111111111,3.666666667,3.444444444,5.111111111,3.666666667,2.222222222,2.222222222,4.888888889,1.222222222,2.333333333,2.666666667,3.222222222,4.444444444,2.888888889,3,2,4,3,2,3,4,3,2,1,4,1,1,2,5,5,5
+169,169,10_34,,,,,,,4.594771242,2.7058823529411766,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 3,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""exciting"": 2,
+  ""powerful_impact"": 2,
+  ""stimulating"": 2,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 2,
+  ""intense"": 2,
+  ""goosebump"": 2,
+  ""creative"": 3,
+  ""graphic"": 2
+}
+```",4.666666667,3.888888889,5.222222222,4.333333333,5.222222222,5.222222222,5.111111111,4.888888889,4.333333333,3.777777778,5.111111111,2.888888889,4.555555556,4.555555556,4.888888889,5.111111111,4.333333333,3,2,3,2,2,2,3,3,2,2,3,2,2,3,4,4,4
+1114,1114,9_20,,,,,,,2.941176471,3.2941176470588234,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""exciting"": 3,
+  ""powerful_impact"": 3,
+  ""stimulating"": 3,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 3,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""creative"": 3,
+  ""graphic"": 2
+}
+```",3.444444444,2.222222222,3.333333333,3.111111111,2.555555556,2.777777778,3.111111111,2.444444444,4.0,2.333333333,2.666666667,2.444444444,3.111111111,2.333333333,3.111111111,3.333333333,3.666666667,4,3,4,3,3,3,4,3,3,2,3,3,3,3,4,4,4
+197,197,10_6,,,,,,,2.581699346,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""arousing"": 4,
+  ""stimulating"": 4,
+  ""involving"": 4,
+  ""powerful_impact"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4
+}
+```",3.444444444,1.444444444,2.222222222,2.222222222,2.777777778,2.555555556,2.222222222,3.333333333,2.888888889,2.111111111,1.888888889,1.666666667,2.222222222,4.444444444,2.666666667,2.888888889,2.888888889,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1130,1130,9_35,,,,,,,3.226890756,2.411764705882353,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""exciting"": 2,
+  ""powerful_impact"": 2,
+  ""stimulating"": 2,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 2,
+  ""strong_soundtrack"": 2,
+  ""dramatic"": 2,
+  ""goosebump"": 1,
+  ""intense"": 1,
+  ""creative"": 3,
+  ""graphic"": 1
+}
+```",3.285714286,2.714285714,3.428571429,3.571428571,2.857142857,3.428571429,3.571428571,3.428571429,4.0,3.428571429,3.571428571,2.0,2.428571429,3.285714286,2.857142857,3.428571429,3.571428571,3,2,3,2,2,2,3,2,2,1,3,1,1,2,4,4,4
+566,566,4_68,,,,,,,4.742647059,5.529411764705882,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 6,
+  ""exciting"": 6,
+  ""strong_visual"": 5,
+  ""arousing"": 5,
+  ""involving"": 6,
+  ""powerful_impact"": 6,
+  ""stimulating"": 6,
+  ""strong_soundeffect"": 5,
+  ""dramatic"": 6,
+  ""intense"": 6,
+  ""strong_soundtrack"": 5,
+  ""goosebump"": 5,
+  ""creative"": 5,
+  ""graphic"": 4,
+  ""unusual"": 6
+}
+```",4.875,3.875,5.125,4.375,4.75,4.625,4.5,4.375,6.25,5.0,4.5,2.375,5.875,4.5,4.75,5.25,5.625,6,5,6,6,6,6,5,5,6,4,5,5,6,5,6,6,6
+537,537,4_41,,,,,,,3.982352941,4.352941176470588,,,,"{""novel"": 5, ""unique"": 5, ""emotional"": 5, ""exciting"": 4, ""strong_visual"": 4, ""powerful_impact"": 5, ""arousing"": 4, ""involving"": 5, ""stimulating"": 4, ""strong_soundeffect"": 4, ""dramatic"": 5, ""intense"": 4, ""strong_soundtrack"": 3, ""creative"": 4, ""goosebump"": 4, ""graphic"": 4, ""unusual"": 5}",4.0,3.6,4.0,3.6,4.4,4.0,5.2,3.4,3.9,4.4,4.0,3.0,4.5,3.4,3.8,4.4,4.1,5,4,5,4,5,4,4,4,5,4,4,4,4,3,5,5,5
+84,84,1_66,,,,,,,2.389705882,5.0,,,,"{""novel"": 6, ""unique"": 6, ""emotional"": 5, ""exciting"": 5, ""strong_visual"": 6, ""arousing"": 4, ""involving"": 5, ""powerful_impact"": 5, ""stimulating"": 5, ""strong_soundeffect"": 5, ""dramatic"": 5, ""intense"": 5, ""strong_soundtrack"": 5, ""goosebump"": 4, ""creative"": 5, ""graphic"": 4, ""unusual"": 5}",3.0,2.125,2.625,2.125,3.5,1.5,2.75,1.0,1.625,2.75,3.0,2.0,2.5,1.0,3.625,2.875,2.625,5,4,5,5,5,5,6,5,5,4,5,4,5,5,6,6,5
+949,949,7_89,,,,,,,2.985294118,4.764705882352941,,,,"{""novel"": 6, ""unique"": 6, ""emotional"": 4, ""exciting"": 5, ""strong_visual"": 5, ""arousing"": 4, ""involving"": 4, ""powerful_impact"": 5, ""stimulating"": 4, ""strong_soundeffect"": 4, ""dramatic"": 5, ""intense"": 5, ""strong_soundtrack"": 4, ""goosebump"": 4, ""creative"": 5, ""graphic"": 5, ""unusual"": 6}",2.125,2.5,1.75,3.25,1.75,3.75,4.25,2.0,3.5,3.125,4.25,1.75,2.25,1.25,3.375,4.75,5.125,4,4,4,5,5,4,5,4,5,5,5,4,5,4,6,6,6
+8,8,1_105,,,,,,,2.889705882,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""unusual"": 4
+}
+```",4.125,2.75,3.125,2.875,2.625,3.375,3.125,3.375,2.875,1.875,2.75,1.75,2.75,3.25,2.5,2.625,3.375,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+448,448,3_7,,,,,,,3.541176471,4.0,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""novel"": 5,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""creative"": 4,
+  ""graphic"": 3,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4,
+  ""goosebump"": 3
+}
+```",3.2,3.0,3.9,3.6,4.6,3.4,3.5,2.8,4.1,3.1,3.6,2.1,4.0,2.7,3.7,4.5,4.4,4,3,4,4,4,4,4,4,4,3,4,3,4,4,5,5,5
+937,937,7_78,,,,,,,4.104575163,4.411764705882353,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""arousing"": 4,
+  ""stimulating"": 5,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 5,
+  ""strong_soundtrack"": 5,
+  ""dramatic"": 5,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 3,
+  ""involving"": 5,
+  ""powerful_impact"": 5
+}
+```",3.444444444,3.0,3.555555556,4.333333333,2.666666667,4.888888889,4.666666667,5.0,4.333333333,3.444444444,5.0,1.888888889,3.555555556,4.777777778,4.555555556,5.444444444,5.222222222,5,4,5,5,5,5,4,5,5,3,4,4,4,5,4,4,4
+742,742,6_118,,,,,,,3.464052288,4.0,,,,"{""novel"": 4, ""unique"": 4, ""unusual"": 4, ""novelty"": 4, ""emotional"": 4, ""arousing"": 4, ""involving"": 4, ""exciting"": 4, ""powerful_impact"": 4, ""stimulating"": 4, ""strong_visual"": 4, ""strong_soundeffect"": 4, ""dramatic"": 4, ""graphic"": 4, ""creative"": 4, ""goosebump"": 4, ""intense"": 4, ""strong_soundtrack"": 4, ""novel"": 4}",3.333333333,2.555555556,4.444444444,3.222222222,4.333333333,2.777777778,3.666666667,4.222222222,3.333333333,2.333333333,4.222222222,2.555555556,2.444444444,4.888888889,3.444444444,4.0,3.111111111,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1186,1186,9_86,,,,,,,2.441176471,3.823529411764706,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""unusual"": 3,
+  ""novelty"": 3,
+  ""emotional"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""graphic"": 4,
+  ""creative"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4
+}
+```",2.875,2.75,3.0,2.25,2.0,2.125,2.5,1.75,3.625,2.625,2.375,1.375,2.5,2.375,2.5,1.625,3.25,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3
+215,215,10_76,,,,,,,4.830065359,4.176470588235294,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""unusual"": 6,
+  ""emotional"": 4,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""creative"": 5,
+  ""graphic"": 3,
+  ""goosebump"": 3,
+  ""intense"": 3,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 3
+}
+```",4.555555556,5.111111111,5.333333333,5.222222222,5.222222222,5.333333333,4.888888889,4.333333333,4.555555556,3.888888889,5.666666667,2.777777778,4.444444444,4.888888889,5.222222222,5.666666667,5.0,4,3,4,5,4,4,5,3,3,3,5,3,3,4,6,6,6
+582,582,4_82,,,,,,,3.058823529,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""arousing"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""involving"": 4,
+  ""powerful_impact"": 4
+}
+```",3.0,3.333333333,3.777777778,3.333333333,2.888888889,2.555555556,3.111111111,2.666666667,3.333333333,3.0,3.444444444,2.555555556,2.777777778,3.111111111,2.888888889,2.777777778,3.444444444,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+325,325,2_67,,,,,,,4.773109244,4.882352941176471,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 6,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""arousing"": 3,
+  ""involving"": 6,
+  ""powerful_impact"": 6,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 5,
+  ""intense"": 4,
+  ""strong_soundtrack"": 5,
+  ""creative"": 5,
+  ""goosebump"": 5,
+  ""graphic"": 2,
+  ""unusual"": 5
+}
+```",5.285714286,4.857142857,5.428571429,4.857142857,5.571428571,5.0,6.142857143,4.285714286,4.857142857,3.0,5.0,3.857142857,3.714285714,5.0,5.142857143,4.857142857,4.285714286,6,3,6,5,6,5,5,4,5,2,5,5,4,5,6,6,5
+180,180,10_44,,,,,,,3.487394958,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""goosebump"": 4,
+  ""graphic"": 4,
+  ""unusual"": 4
+}
+```",3.714285714,3.428571429,3.857142857,4.428571429,3.714285714,4.0,4.142857143,3.714285714,3.428571429,2.714285714,3.571428571,2.428571429,3.285714286,3.571428571,2.857142857,3.285714286,3.142857143,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1040,1040,8_62,,,,,,,3.405228758,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",2.666666667,2.777777778,3.666666667,3.333333333,3.222222222,3.0,4.444444444,3.666666667,3.777777778,2.444444444,3.444444444,3.222222222,3.0,5.111111111,3.444444444,3.666666667,3.0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1091,1091,9_108,,,,,,,2.54248366,2.7058823529411766,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""exciting"": 2,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 2,
+  ""intense"": 2,
+  ""goosebump"": 2,
+  ""creative"": 3,
+  ""graphic"": 1,
+  ""powerful_impact"": 2,
+  ""stimulating"": 2
+}
+```",2.777777778,1.666666667,2.111111111,1.777777778,2.111111111,2.444444444,3.555555556,2.555555556,2.666666667,2.777777778,2.888888889,1.666666667,1.555555556,3.444444444,3.0,3.444444444,2.777777778,3,2,3,2,2,2,3,3,2,1,3,2,2,4,4,4,4
+1187,1187,9_87,,,,,,,4.517647059,4.235294117647059,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""unusual"": 6,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""strong_visual"": 5,
+  ""arousing"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""involving"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""goosebump"": 3,
+  ""creative"": 3,
+  ""graphic"": 3,
+  ""strong_soundtrack"": 3,
+  ""strong_soundeffect"": 3
+}
+```",4.6,3.6,5.3,4.5,5.8,4.2,5.8,3.5,4.8,3.2,5.1,3.3,4.3,3.9,4.5,5.7,4.7,5,4,4,5,4,4,5,3,4,3,3,3,4,3,6,6,6
+217,217,10_78,,,,,,,2.202614379,3.0,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""powerful_impact"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""stimulating"": 3,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 3,
+  ""intense"": 3,
+  ""strong_soundtrack"": 3,
+  ""creative"": 3,
+  ""goosebump"": 3,
+  ""graphic"": 3,
+  ""unusual"": 3
+}
+```",2.777777778,2.444444444,2.555555556,2.222222222,2.222222222,1.888888889,1.666666667,1.555555556,2.333333333,2.111111111,2.0,1.666666667,2.0,2.0,2.555555556,2.555555556,2.888888889,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+353,353,2_92,,,,,,,3.264705882,2.0,,,,"{""novel"": 2, ""unique"": 2, ""unusual"": 2, ""novelty"": 2, ""emotional"": 2, ""arousing"": 2, ""involving"": 2, ""exciting"": 2, ""powerful_impact"": 2, ""stimulating"": 2, ""strong_visual"": 2, ""strong_soundeffect"": 2, ""dramatic"": 2, ""graphic"": 2, ""creative"": 2, ""goosebump"": 2, ""intense"": 2, ""strong_soundtrack"": 2, ""novel"": 2}",3.875,3.25,4.0,3.125,3.75,2.75,3.375,2.875,3.5,2.375,3.0,2.625,3.25,3.0,3.625,3.875,3.25,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+531,531,4_36,,,,,,,2.470588235,3.176470588235294,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""stimulating"": 3,
+  ""powerful_impact"": 3,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""creative"": 3,
+  ""graphic"": 3,
+  ""dramatic"": 3,
+  ""goosebump"": 3,
+  ""intense"": 3
+}
+```",2.0,2.125,2.75,3.125,2.25,2.625,3.125,2.875,2.25,2.75,2.75,1.25,2.25,2.0,2.875,2.625,2.375,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4
+542,542,4_46,,,,,,,4.496732026,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4
+}
+```",4.0,3.888888889,3.555555556,4.777777778,4.0,3.666666667,5.222222222,3.666666667,5.111111111,4.0,5.555555556,3.555555556,5.222222222,4.333333333,5.222222222,5.333333333,5.333333333,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+951,951,7_90,,,,,,,4.405228758,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4
+}
+```",4.111111111,4.111111111,4.444444444,4.888888889,4.333333333,5.111111111,4.555555556,4.888888889,3.555555556,3.555555556,5.222222222,3.111111111,3.888888889,5.666666667,4.777777778,4.777777778,3.888888889,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+300,300,2_44,,,,,,,2.852941176,4.529411764705882,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 6,
+  ""exciting"": 5,
+  ""strong_visual"": 4,
+  ""arousing"": 5,
+  ""involving"": 6,
+  ""stimulating"": 5,
+  ""powerful_impact"": 6,
+  ""creative"": 4,
+  ""graphic"": 3,
+  ""goosebump"": 4,
+  ""intense"": 5,
+  ""dramatic"": 5,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 3
+}
+```",3.75,2.875,3.25,2.875,2.625,2.625,3.125,2.125,3.625,2.75,3.25,1.0,3.25,2.375,2.75,3.0,3.25,6,5,6,5,6,5,4,3,5,3,4,4,5,4,4,4,4
+528,528,4_33,,,,,,,5.248366013,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",5.222222222,5.0,5.555555556,5.777777778,6.0,5.666666667,5.555555556,5.555555556,5.444444444,5.111111111,5.888888889,3.888888889,5.222222222,5.666666667,4.222222222,5.333333333,4.111111111,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+805,805,6_67,,,,,,,3.928104575,4.294117647058823,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 5,
+  ""arousing"": 4,
+  ""involving"": 6,
+  ""exciting"": 4,
+  ""powerful_impact"": 5,
+  ""stimulating"": 5,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""strong_soundtrack"": 3,
+  ""goosebump"": 3,
+  ""creative"": 5,
+  ""graphic"": 2,
+  ""unusual"": 5
+}
+```",4.666666667,3.222222222,4.222222222,3.666666667,5.111111111,3.333333333,4.555555556,3.0,3.777777778,3.777777778,4.666666667,2.333333333,3.333333333,3.222222222,4.444444444,5.111111111,4.333333333,5,4,6,4,5,5,4,3,4,2,5,3,3,3,6,6,5
+1195,1195,9_94,,,,,,,2.346405229,2.5294117647058822,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""arousing"": 2,
+  ""involving"": 2,
+  ""stimulating"": 2,
+  ""powerful_impact"": 2,
+  ""creative"": 3,
+  ""goosebump"": 2,
+  ""intense"": 2,
+  ""dramatic"": 2,
+  ""graphic"": 1,
+  ""strong_soundtrack"": 2,
+  ""strong_soundeffect"": 2
+}
+```",2.333333333,1.777777778,2.555555556,2.555555556,2.777777778,2.666666667,2.444444444,2.555555556,3.0,1.888888889,2.888888889,1.333333333,2.0,2.0,2.333333333,2.555555556,2.222222222,3,2,2,3,2,2,3,2,2,1,3,2,2,2,4,4,4
+225,225,10_85,,,,,,,3.992647059,2.764705882352941,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""stimulating"": 2,
+  ""powerful_impact"": 2,
+  ""creative"": 4,
+  ""graphic"": 1,
+  ""goosebump"": 1,
+  ""intense"": 1,
+  ""strong_soundtrack"": 3,
+  ""strong_soundeffect"": 2,
+  ""dramatic"": 2
+}
+```",3.875,3.5,4.25,3.125,3.25,3.875,4.375,3.875,5.25,4.375,4.375,1.625,3.25,4.5,4.625,5.0,4.75,4,2,3,3,2,2,3,2,2,1,4,1,1,3,5,5,4
+227,227,10_87,,,,,,,3.066176471,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",2.0,2.625,3.25,3.25,2.625,3.375,3.875,3.75,2.5,2.875,3.625,1.375,2.5,4.0,3.25,3.875,3.375,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+477,477,3_96,,,,,,,3.676470588,3.6470588235294117,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""exciting"": 3,
+  ""powerful_impact"": 3,
+  ""stimulating"": 3,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4
+}
+```",3.25,3.5,4.25,3.25,3.5,4.375,5.25,4.5,3.375,3.0,4.125,1.75,2.75,3.0,4.25,4.375,4.0,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4
+322,322,2_64,,,,,,,2.260504202,3.411764705882353,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 3,
+  ""goosebump"": 2,
+  ""intense"": 2,
+  ""dramatic"": 2,
+  ""creative"": 4,
+  ""graphic"": 1,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 3
+}
+```",2.285714286,2.142857143,3.0,1.857142857,2.285714286,2.285714286,2.142857143,2.285714286,1.857142857,2.285714286,2.857142857,1.714285714,1.857142857,2.714285714,2.142857143,2.142857143,2.571428571,4,3,4,4,3,4,4,3,2,1,4,2,2,4,5,5,4
+426,426,3_5,,,,,,,4.4,4.823529411764706,,,,"{""novel"": 4, ""unique"": 4, ""unusual"": 4, ""novelty"": 4, ""emotional"": 5, ""arousing"": 5, ""involving"": 5, ""exciting"": 5, ""powerful_impact"": 5, ""stimulating"": 5, ""strong_visual"": 5, ""strong_soundeffect"": 5, ""dramatic"": 5, ""graphic"": 5, ""creative"": 5, ""goosebump"": 5, ""intense"": 5, ""strong_soundtrack"": 5, ""unusual"": 4}",4.8,4.8,4.9,5.0,4.3,4.5,5.4,4.2,5.3,4.5,3.7,2.9,5.2,5.1,4.0,3.1,3.1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4
+157,157,10_23,,,,,,,2.045751634,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4
+}
+```",1.888888889,2.555555556,2.111111111,1.777777778,1.333333333,1.777777778,2.111111111,2.222222222,2.333333333,1.888888889,2.333333333,1.555555556,1.777777778,2.0,2.0,2.111111111,3.0,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+799,799,6_61,,,,,,,4.267973856,4.294117647058823,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""novel"": 5,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""strong_visual"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""stimulating"": 4,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4,
+  ""goosebump"": 4,
+  ""powerful_impact"": 4
+}
+```",4.333333333,2.666666667,4.333333333,4.555555556,4.111111111,4.888888889,3.777777778,3.444444444,5.444444444,4.444444444,4.0,2.444444444,4.555555556,4.777777778,5.111111111,5.0,4.666666667,5,4,4,5,4,4,4,4,4,4,4,4,4,4,5,5,5
+1006,1006,8_31,,,,,,,4.478991597,5.176470588235294,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""unusual"": 6,
+  ""emotional"": 6,
+  ""arousing"": 5,
+  ""involving"": 6,
+  ""exciting"": 5,
+  ""powerful_impact"": 6,
+  ""stimulating"": 5,
+  ""strong_visual"": 5,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 5,
+  ""intense"": 5,
+  ""goosebump"": 5,
+  ""creative"": 5,
+  ""graphic"": 4
+}
+```",5.571428571,3.857142857,5.571428571,4.142857143,5.0,4.571428571,4.428571429,4.0,5.0,4.285714286,4.428571429,3.142857143,5.0,3.714285714,4.714285714,4.571428571,4.142857143,6,5,6,5,6,5,5,4,5,4,5,5,5,4,6,6,6
+902,902,7_46,,,,,,,4.073529412,5.529411764705882,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 4,
+  ""emotional"": 6,
+  ""exciting"": 7,
+  ""strong_visual"": 6,
+  ""arousing"": 6,
+  ""involving"": 6,
+  ""stimulating"": 6,
+  ""powerful_impact"": 6,
+  ""strong_soundeffect"": 6,
+  ""strong_soundtrack"": 6,
+  ""dramatic"": 6,
+  ""intense"": 6,
+  ""goosebump"": 5,
+  ""creative"": 5,
+  ""graphic"": 3
+}
+```",3.5,3.25,4.375,4.5,4.25,4.25,5.375,4.125,4.375,4.125,4.375,2.625,4.125,4.5,3.375,4.625,3.5,6,6,6,7,6,6,6,6,6,3,5,5,6,6,5,5,4
+712,712,5_91,,,,,,,3.908496732,3.176470588235294,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""exciting"": 3,
+  ""powerful_impact"": 3,
+  ""stimulating"": 3,
+  ""strong_visual"": 3,
+  ""strong_soundeffect"": 3,
+  ""strong_soundtrack"": 3,
+  ""dramatic"": 3,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""creative"": 3,
+  ""graphic"": 3
+}
+```",2.777777778,3.222222222,3.333333333,4.666666667,4.0,4.666666667,4.888888889,4.555555556,3.333333333,3.0,5.444444444,1.555555556,2.777777778,5.666666667,4.333333333,4.222222222,4.0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4
+492,492,4_109,,,,,,,2.683823529,4.117647058823529,,,,"{""novel"": 4, ""unique"": 4, ""unusual"": 4, ""novelty"": 4, ""emotional"": 5, ""arousing"": 4, ""involving"": 5, ""exciting"": 4, ""powerful_impact"": 4, ""stimulating"": 4, ""strong_visual"": 4, ""strong_soundeffect"": 4, ""dramatic"": 4, ""intense"": 4, ""strong_soundtrack"": 4, ""creative"": 4, ""graphic"": 4, ""goosebump"": 4}",3.25,2.375,3.125,3.375,2.375,3.5,3.5,1.875,2.25,2.25,3.125,1.625,2.25,1.875,2.875,3.25,2.75,5,4,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1132,1132,9_37,,,,,,,4.470588235,4.0,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""emotional"": 5,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 5,
+  ""arousing"": 3,
+  ""involving"": 5,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 3,
+  ""creative"": 4,
+  ""goosebump"": 3,
+  ""graphic"": 2,
+  ""unusual"": 5
+}
+```",5.375,4.75,5.375,4.5,5.625,4.5,4.5,3.375,4.75,3.625,4.625,3.0,4.125,2.875,4.875,5.375,4.75,5,3,5,4,5,4,4,3,4,2,4,3,4,3,5,5,5
+120,120,1_99,,,,,,,3.477124183,4.0,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 6,
+  ""emotional"": 4,
+  ""exciting"": 5,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_soundeffect"": 5,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""strong_soundtrack"": 5,
+  ""creative"": 4,
+  ""goosebump"": 2,
+  ""graphic"": 1,
+  ""unusual"": 5,
+  ""novel"": 5
+}
+```",3.0,3.222222222,3.333333333,3.333333333,3.333333333,3.888888889,4.0,3.555555556,4.0,2.333333333,4.111111111,2.333333333,3.444444444,4.888888889,3.777777778,3.333333333,3.222222222,4,3,4,5,4,4,4,5,4,1,4,2,3,5,5,6,5
+845,845,7_102,,,,,,,2.379084967,2.588235294117647,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""arousing"": 2,
+  ""involving"": 2,
+  ""stimulating"": 2,
+  ""powerful_impact"": 2,
+  ""creative"": 3,
+  ""graphic"": 2,
+  ""goosebump"": 2,
+  ""intense"": 2,
+  ""dramatic"": 2,
+  ""strong_soundtrack"": 2,
+  ""strong_soundeffect"": 2
+}
+```",2.0,2.888888889,2.555555556,2.666666667,2.333333333,2.555555556,3.666666667,1.777777778,2.555555556,1.888888889,2.777777778,1.555555556,2.444444444,2.333333333,2.222222222,2.111111111,2.111111111,3,2,2,3,2,2,3,2,2,2,3,2,2,2,4,4,4
+1119,1119,9_25,,,,,,,5.595588235,5.647058823529412,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 5,
+  ""exciting"": 6,
+  ""strong_visual"": 6,
+  ""powerful_impact"": 6,
+  ""arousing"": 5,
+  ""involving"": 5,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 6,
+  ""dramatic"": 6,
+  ""intense"": 6,
+  ""strong_soundtrack"": 6,
+  ""graphic"": 5,
+  ""creative"": 6,
+  ""goosebump"": 5,
+  ""unusual"": 6,
+  ""novel"": 6
+}
+```",5.25,5.875,5.375,6.0,5.25,6.0,5.875,5.75,6.0,4.75,6.375,4.25,5.375,5.625,5.75,5.875,5.75,5,5,5,6,6,5,6,6,6,5,6,5,6,6,6,6,6
+340,340,2_80,,,,,,,4.496732026,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",5.222222222,3.444444444,4.555555556,3.666666667,5.333333333,4.666666667,5.111111111,4.333333333,5.333333333,3.777777778,4.666666667,3.888888889,4.888888889,5.0,4.333333333,4.444444444,3.777777778,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+657,657,5_41,,,,,,,3.132352941,2.411764705882353,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""emotional"": 2,
+  ""arousing"": 2,
+  ""involving"": 3,
+  ""exciting"": 3,
+  ""powerful_impact"": 2,
+  ""stimulating"": 3,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 2,
+  ""graphic"": 1,
+  ""creative"": 3,
+  ""goosebump"": 1,
+  ""intense"": 1,
+  ""strong_soundtrack"": 3,
+  ""unusual"": 2,
+  ""novel"": 3,
+  ""unusual"": 2
+}
+```",1.625,3.375,3.75,3.125,3.875,3.5,5.125,3.625,2.25,3.625,4.125,1.125,1.75,3.875,2.875,3.125,2.5,2,2,3,3,2,3,4,3,2,1,3,1,1,3,3,3,2
+524,524,4_3,,,,,,,3.889705882,5.235294117647059,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""emotional"": 6,
+  ""exciting"": 6,
+  ""arousing"": 6,
+  ""involving"": 6,
+  ""stimulating"": 6,
+  ""powerful_impact"": 6,
+  ""strong_visual"": 5,
+  ""strong_soundeffect"": 5,
+  ""strong_soundtrack"": 5,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""goosebump"": 5,
+  ""intense"": 5,
+  ""dramatic"": 5
+}
+```",4.125,3.5,4.125,4.125,3.375,4.25,4.5,5.375,4.25,2.875,3.125,2.375,4.125,5.375,3.5,3.375,3.75,6,6,6,6,6,6,5,5,5,4,4,5,5,5,5,5,5
+311,311,2_54,,,,,,,3.159663866,3.588235294117647,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""exciting"": 3,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 3,
+  ""dramatic"": 3,
+  ""graphic"": 2,
+  ""creative"": 4,
+  ""goosebump"": 2,
+  ""intense"": 2,
+  ""strong_soundtrack"": 4,
+  ""unusual"": 5,
+  ""powerful_impact"": 3,
+  ""stimulating"": 3
+}
+```",3.142857143,2.714285714,3.0,2.285714286,2.571428571,3.0,3.285714286,3.428571429,3.285714286,3.714285714,3.285714286,3.428571429,2.857142857,3.714285714,3.142857143,3.142857143,3.714285714,4,3,4,3,3,3,4,3,3,2,4,2,2,4,6,6,5
+1197,1197,9_96,,,,,,,4.419117647,4.588235294117647,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""strong_visual"": 4,
+  ""arousing"": 5,
+  ""involving"": 5,
+  ""stimulating"": 5,
+  ""powerful_impact"": 5,
+  ""goosebump"": 4,
+  ""intense"": 5,
+  ""dramatic"": 5,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""strong_soundtrack"": 5,
+  ""strong_soundeffect"": 5
+}
+```",4.375,4.125,5.0,4.375,4.875,4.375,4.625,4.25,5.25,4.25,4.125,3.625,4.75,4.25,4.375,4.5,4.0,5,5,5,5,5,5,4,5,5,4,4,4,5,5,4,4,4
+875,875,7_21,,,,,,,3.698529412,4.176470588235294,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 5,
+  ""novelty"": 5,
+  ""emotional"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",3.5,3.125,3.75,4.5,3.25,4.0,4.5,4.125,3.5,3.5,4.0,1.75,3.5,3.875,3.875,4.0,4.125,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5
+350,350,2_9,,,,,,,4.691176471,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",4.375,3.875,4.375,4.5,5.25,5.375,5.125,4.5,5.75,4.125,5.0,2.25,5.125,5.0,5.125,5.25,4.75,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+282,282,2_28,,,,,,,3.578431373,4.823529411764706,,,,"{""novel"": 4, ""unique"": 4, ""unusual"": 4, ""novelty"": 4, ""emotional"": 5, ""arousing"": 5, ""involving"": 5, ""exciting"": 5, ""powerful_impact"": 5, ""stimulating"": 5, ""strong_visual"": 5, ""strong_soundeffect"": 5, ""dramatic"": 5, ""graphic"": 5, ""creative"": 5, ""goosebump"": 5, ""intense"": 5, ""strong_soundtrack"": 5, ""unusual"": 4}",4.166666667,3.5,3.666666667,4.0,4.166666667,3.666666667,5.166666667,2.833333333,4.0,3.166666667,3.166666667,2.0,4.5,2.0,3.833333333,3.5,3.5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4
+507,507,4_14,,,,,,,3.117647059,3.176470588235294,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 3,
+  ""exciting"": 3,
+  ""strong_visual"": 3,
+  ""arousing"": 3,
+  ""involving"": 3,
+  ""stimulating"": 3,
+  ""powerful_impact"": 3,
+  ""creative"": 3,
+  ""graphic"": 3,
+  ""goosebump"": 3,
+  ""intense"": 3,
+  ""dramatic"": 3,
+  ""strong_soundtrack"": 3,
+  ""strong_soundeffect"": 3
+}
+```",2.125,2.625,2.875,3.375,2.875,3.75,3.5,4.5,2.875,1.875,3.625,1.375,2.875,4.875,3.0,3.125,3.75,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4
+199,199,10_61,,,,,,,3.117647059,5.117647058823529,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 4,
+  ""novel"": 5,
+  ""emotional"": 4,
+  ""exciting"": 6,
+  ""strong_visual"": 5,
+  ""arousing"": 5,
+  ""involving"": 5,
+  ""stimulating"": 6,
+  ""powerful_impact"": 6,
+  ""strong_soundeffect"": 6,
+  ""dramatic"": 6,
+  ""intense"": 6,
+  ""strong_soundtrack"": 5,
+  ""creative"": 5,
+  ""graphic"": 3,
+  ""goosebump"": 5
+}
+```",2.75,2.625,3.0,2.625,3.5,3.0,3.75,3.25,4.0,3.25,2.875,1.875,4.125,2.875,2.875,3.125,3.5,4,5,5,6,6,6,5,6,6,3,5,5,6,5,5,5,4
+75,75,1_58,,,,,,,4.544117647,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4
+}
+```",4.875,4.75,5.75,4.625,5.75,5.5,5.375,3.125,5.625,3.75,5.0,2.25,5.25,2.75,4.375,4.875,3.625,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+643,643,5_29,,,,,,,2.477124183,2.8823529411764706,,,,"```json
+{
+  ""novel"": 3,
+  ""unique"": 3,
+  ""emotional"": 4,
+  ""exciting"": 3,
+  ""strong_visual"": 4,
+  ""powerful_impact"": 4,
+  ""arousing"": 3,
+  ""involving"": 4,
+  ""stimulating"": 3,
+  ""strong_soundeffect"": 2,
+  ""strong_soundtrack"": 2,
+  ""dramatic"": 3,
+  ""intense"": 2,
+  ""goosebump"": 2,
+  ""creative"": 3,
+  ""graphic"": 1,
+  ""unusual"": 3
+}
+```",2.666666667,2.111111111,2.444444444,2.333333333,3.333333333,2.0,3.555555556,1.888888889,2.444444444,2.222222222,2.444444444,1.444444444,2.0,2.222222222,3.222222222,3.444444444,2.333333333,4,3,4,3,4,3,4,2,3,1,3,2,2,2,3,3,3
+995,995,8_21,,,,,,,2.904411765,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novel"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""graphic"": 4,
+  ""goosebump"": 4
+}
+```",2.375,3.5,3.375,3.25,2.625,3.5,4.0,2.25,2.875,3.375,3.75,1.75,2.25,1.375,3.625,2.625,2.875,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+690,690,5_71,,,,,,,3.54248366,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""stimulating"": 4,
+  ""powerful_impact"": 4,
+  ""strong_soundtrack"": 4,
+  ""strong_soundeffect"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",2.555555556,4.222222222,3.666666667,3.888888889,2.555555556,4.444444444,4.777777778,4.111111111,4.0,3.666666667,3.777777778,1.555555556,3.222222222,4.777777778,2.444444444,3.111111111,3.444444444,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1163,1163,9_65,,,,,,,4.051470588,4.823529411764706,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""unusual"": 5,
+  ""novel"": 6,
+  ""emotional"": 5,
+  ""exciting"": 6,
+  ""strong_visual"": 5,
+  ""creative"": 5,
+  ""graphic"": 1,
+  ""arousing"": 3,
+  ""involving"": 6,
+  ""intense"": 4,
+  ""strong_soundtrack"": 6,
+  ""dramatic"": 5,
+  ""stimulating"": 5,
+  ""strong_soundeffect"": 5,
+  ""goosebump"": 4,
+  ""powerful_impact"": 5
+}
+```",4.625,4.25,4.5,4.375,5.125,4.875,4.625,4.375,4.0,2.75,3.625,2.625,4.125,4.875,3.125,3.375,3.625,5,3,6,6,5,5,5,5,5,1,5,4,4,6,6,6,5
+269,269,2_16,,,,,,,2.941176471,4.294117647058823,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 5,
+  ""exciting"": 5,
+  ""arousing"": 5,
+  ""stimulating"": 5,
+  ""involving"": 5,
+  ""powerful_impact"": 5,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""creative"": 4,
+  ""graphic"": 3,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""dramatic"": 4
+}
+```",3.555555556,2.555555556,2.888888889,3.222222222,2.888888889,3.111111111,2.555555556,3.222222222,3.555555556,2.444444444,2.777777778,1.888888889,3.111111111,2.888888889,3.222222222,2.888888889,3.222222222,5,5,5,5,5,5,4,4,4,3,4,4,4,4,4,4,4
+80,80,1_62,,,,,,,4.602941176,4.882352941176471,,,,"```json
+{
+  ""novel"": 6,
+  ""unique"": 6,
+  ""emotional"": 5,
+  ""arousing"": 4,
+  ""involving"": 5,
+  ""exciting"": 5,
+  ""powerful_impact"": 5,
+  ""stimulating"": 5,
+  ""strong_visual"": 5,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 5,
+  ""dramatic"": 5,
+  ""goosebump"": 4,
+  ""intense"": 4,
+  ""creative"": 6,
+  ""graphic"": 3,
+  ""unusual"": 6
+}
+```",4.875,2.75,5.0,4.25,5.125,4.0,5.625,4.5,5.625,3.375,5.5,2.875,4.5,4.625,5.375,5.0,5.25,5,4,5,5,5,5,5,4,5,3,6,4,4,5,6,6,6
+730,730,6_107,,,,,,,3.735294118,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""emotional"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",3.75,2.875,4.375,3.375,4.625,4.0,3.625,3.125,3.875,2.0,4.0,2.25,4.0,3.625,5.0,4.875,4.125,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+459,459,3_8,,,,,,,2.125,4.0,,,,"```json
+{
+  ""novel"": 4,
+  ""unique"": 4,
+  ""unusual"": 4,
+  ""novelty"": 4,
+  ""emotional"": 4,
+  ""arousing"": 4,
+  ""involving"": 4,
+  ""exciting"": 4,
+  ""powerful_impact"": 4,
+  ""stimulating"": 4,
+  ""strong_visual"": 4,
+  ""strong_soundeffect"": 4,
+  ""strong_soundtrack"": 4,
+  ""dramatic"": 4,
+  ""intense"": 4,
+  ""goosebump"": 4,
+  ""creative"": 4,
+  ""graphic"": 4
+}
+```",1.875,1.5,1.75,2.125,2.25,1.625,3.125,2.375,3.5,2.125,1.5,1.625,2.375,2.375,1.75,1.75,2.5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+1016,1016,8_40,,,,,,,3.281045752,3.823529411764706,,,,"```json
+{
+  ""novel"": 5,
+  ""unique"": 5,
+  ""unusual"": 4,
+  ""emotional"": 6,
+  ""exciting"": 4,
+  ""strong_visual"": 4,
+  ""arousing"": 3,
+  ""involving"": 5,
+  ""stimulating"": 3,
+  ""powerful_impact"": 4,
+  ""creative"": 4,
+  ""dramatic"": 4,
+  ""intense"": 3,
+  ""goosebump"": 3,
+  ""graphic"": 1,
+  ""strong_soundtrack"": 5,
+  ""strong_soundeffect"": 2
+}
+```",4.0,2.777777778,3.222222222,3.555555556,3.888888889,3.222222222,4.222222222,3.666666667,2.555555556,2.111111111,3.333333333,2.666666667,2.111111111,4.0,4.111111111,3.333333333,3.0,6,3,5,4,4,3,4,2,4,1,4,3,3,5,5,5,4

@@ -38,7 +38,7 @@ multimodal-pmsv-synth/
 │   ├── samples/
 │   │   ├── 10_percent_sample.csv    # Canonical 120-video, ~1,000-participant sample
 │   │   └── few_shot_examples.csv    # Fixed 3-example pool for few-shot prompts
-│   └── results/                     # Model inference outputs (10 conditions)
+│   └── results/                     # Model inference outputs (14 conditions)
 │       ├── gemini_zero_shot.csv
 │       ├── gemini_few_shot.csv
 │       ├── gemini_cot.csv
@@ -50,28 +50,21 @@ multimodal-pmsv-synth/
 │       ├── qwen_few_shot.csv
 │       ├── qwen_cot.csv
 │       ├── qwen_no_profile.csv
-│       └── qwen_shuffled.csv
-│
-├── figures/                                        # Final paper figures (PDF)
-│   ├── pmsv_corr_agmt.pdf                          # Fig 2
-│   ├── pmsv_hists.pdf                              # Fig 3
-│   ├── pmsv_age.pdf                                # Fig 4 (age)
-│   ├── pmsv_gender.pdf                             # Fig 4 (gender)
-│   ├── pmsv_dist_real_vs_shuffle_gemini.pdf        # Fig 5
-│   ├── pmsv_corr_agmt_video_gemini.pdf             # Fig 6 (Gemini)
-│   ├── pmsv_corr_agmt_video_qwen.pdf               # Fig 6 (Qwen)
-│   ├── pmsv_corr_agmt_residual_gemini.pdf          # Fig 7 (Gemini)
-│   └── pmsv_corr_agmt_residual_qwen.pdf            # Fig 7 (Qwen)
+│       ├── qwen_shuffled_run_1.csv
+│       ├── qwen_shuffled_run_2.csv
+│       └── qwen_shuffled_run_3.csv
 │
 └── analysis/
-    ├── fig_2.py                 # → figures/pmsv_corr_agmt.pdf
-    ├── fig_3.py                 # → figures/pmsv_hists.pdf
-    ├── fig_4.py                 # → figures/pmsv_age.pdf + pmsv_gender.pdf
-    ├── fig_5.py                 # → figures/pmsv_dist_real_vs_shuffle_gemini.pdf
-    ├── fig_6.py                 # → figures/pmsv_corr_agmt_video_gemini/qwen.pdf
-    ├── fig_7.py                 # → figures/pmsv_corr_agmt_residual_gemini/qwen.pdf
-    ├── figures.py               # Shared helpers for Figs 2–4
-    └── profile_ablation.py      # Shared helpers for Figs 5–7
+    ├── figures.py                    # Shared utilities (loaders, stats, constants)
+    ├── paper_figures.ipynb           # Notebook: reproduce all paper figures + Table 1
+    ├── figs/
+    │   ├── fig_2.py                  # → figures/pmsv_corr_agmt.pdf
+    │   ├── fig_3.py                  # → figures/pmsv_hists.pdf
+    │   ├── fig_4.py                  # → figures/pmsv_age.pdf + pmsv_gender.pdf
+    │   ├── fig_5.py                  # → figures/pmsv_dist_shuffle_gemini/qwen.pdf
+    │   └── tab_1.py                  # → prints Table 1 (ICC by subgroup)
+    └── additional_experiments/
+        └── exp_video_features.py     # RF model: video features → PMSV prediction
 ```
 
 ---
@@ -85,7 +78,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e .
-pip install matplotlib scipy statsmodels scikit-learn  # for analysis scripts
 ```
 
 Copy `.env.example` to `.env` and add your API keys:
@@ -119,6 +111,9 @@ python main.py --cot
 
 # No demographic profile (ablation)
 python main.py --no-profile
+
+# Shuffled demographic profile (ablation)
+python main.py --shuffle-profile
 
 # Qwen3-Omni-30B on local GPU
 python main.py --provider qwen3-local
@@ -168,22 +163,27 @@ ai_emotional,    ai_arousing,    ..., ai_unusual        (17 cols)
 
 ---
 
-## Reproducing Paper Figures
+## Reproducing Paper Results
 
-All figure scripts run from the repo root and write directly to `figures/`.
+All scripts run from the repo root. The notebook is the easiest entry point.
 
+### Notebook
 
-| Script                     | Output                                                                                   | Paper figure                                               |
-| -------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| `python analysis/fig_2.py` | `figures/pmsv_corr_agmt.pdf`                                                             | Fig 2: Participant-level ρ / κ grid                        |
-| `python analysis/fig_3.py` | `figures/pmsv_hists.pdf`                                                                 | Fig 3: PMSV distributions                                  |
-| `python analysis/fig_4.py` | `figures/pmsv_age.pdf`, `figures/pmsv_gender.pdf`                                        | Fig 4: By-group boxplots                                   |
-| `python analysis/fig_5.py` | `figures/pmsv_dist_real_vs_shuffle_gemini.pdf`                                           | Fig 5: Zero-shot vs shuffled-profile distribution (Gemini) |
-| `python analysis/fig_6.py` | `figures/pmsv_corr_agmt_video_gemini.pdf`, `figures/pmsv_corr_agmt_video_qwen.pdf`       | Fig 6: Video-level ρ heatmaps                              |
-| `python analysis/fig_7.py` | `figures/pmsv_corr_agmt_residual_gemini.pdf`, `figures/pmsv_corr_agmt_residual_qwen.pdf` | Fig 7: Residual correlation heatmaps                       |
+Open `analysis/paper_figures.ipynb` in JupyterLab — it reproduces all figures and Table 1 inline. Works whether launched from the repo root or from `analysis/`.
+
+### Individual scripts
 
 
-All scripts use the canonical CSVs in `data/results/` by default. Override paths with CLI flags — run `python analysis/fig_2.py --help` for options.
+| Script                          | Output                                            | Paper                        |
+| ------------------------------- | ------------------------------------------------- | ---------------------------- |
+| `python analysis/figs/fig_2.py` | `figures/pmsv_corr_agmt.pdf`                      | Fig 2: ICC grid              |
+| `python analysis/figs/fig_3.py` | `figures/pmsv_hists.pdf`                          | Fig 3: PMSV distributions    |
+| `python analysis/figs/fig_4.py` | `figures/pmsv_age.pdf`, `figures/pmsv_gender.pdf` | Fig 4: Age and gender        |
+| `python analysis/figs/fig_5.py` | `figures/pmsv_dist_shuffle_gemini/qwen.pdf`       | Fig 5: Zero-shot vs shuffled |
+| `python analysis/figs/tab_1.py` | stdout                                            | Table 1: ICC by subgroup     |
+
+
+All scripts use the canonical CSVs in `data/results/` by default. Run any script with `--help` to see path override options.
 
 ---
 

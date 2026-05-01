@@ -16,9 +16,6 @@ src/pmsv_synth/inference/gemini/__init__.py
 src/pmsv_synth/inference/gemini/batch.py
 src/pmsv_synth/inference/gemini/gemini.py
 src/pmsv_synth/inference/gemini/sync.py
-src/pmsv_synth/inference/qwen/__init__.py
-src/pmsv_synth/inference/qwen/qwen.py
-src/pmsv_synth/inference/qwen/sync.py
 src/pmsv_synth/inference/qwen3_local/__init__.py
 src/pmsv_synth/inference/qwen3_local/model.py
 src/pmsv_synth/inference/qwen3_local/sync.py
@@ -27,5 +24,7 @@ src/pmsv_synth/inference/qwen_local/model.py
 src/pmsv_synth/inference/qwen_local/sync.py
 src/pmsv_synth/prompts/__init__.py
 src/pmsv_synth/prompts/cot.py
+src/pmsv_synth/prompts/cot_no_profile.py
 src/pmsv_synth/prompts/few_shot.py
 src/pmsv_synth/prompts/zero_shot.py
+src/pmsv_synth/prompts/zero_shot_no_profile.py
