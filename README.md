@@ -10,7 +10,6 @@ Multimodal large language models (MLLMs) have shown strong performance on object
 multimodal-pmsv-synth/
 ├── main.py                      # Inference CLI (run model on video + participant profile)
 ├── requirements.txt             # Core inference dependencies
-├── requirements-local.txt       # Additional deps for local Qwen GPU
 ├── .env.example                 # API key template
 │
 ├── src/pmsv_synth/              # Inference engine
@@ -20,8 +19,7 @@ multimodal-pmsv-synth/
 │   │   └── export.py            # Results to CSV
 │   ├── inference/
 │   │   ├── gemini/              # Gemini API (sync, batch)
-│   │   ├── qwen3_local/         # Local Qwen3-Omni-30B (primary Qwen provider)
-│   │   └── qwen_local/          # Local Qwen2.5-Omni (optional)
+│   │   └── qwen3_local/         # Local Qwen3-Omni-30B
 │   └── prompts/
 │       ├── zero_shot.py         # Zero-shot prompt builder
 │       ├── few_shot.py          # Few-shot prompt builder
@@ -111,18 +109,14 @@ python main.py --shuffle-profile
 
 # Qwen3-Omni-30B on local GPU
 python main.py --provider qwen3-local
-
-# Qwen2.5-Omni-7B on local GPU (optional lighter alternative)
-python main.py --provider qwen-local
 ```
 
 **Providers:**
 
-| `--provider`       | Backend                                  | Notes                                         |
-| ------------------ | ---------------------------------------- | --------------------------------------------- |
-| `gemini` (default) | Google Gemini API                        | Requires `GOOGLE_API_KEY`                     |
-| `qwen3-local`      | Local GPU — Qwen3-Omni-30B-A3B-GPTQ-4bit | Requires the `pmsv-qwen3` conda env           |
-| `qwen-local`       | Local GPU — Qwen2.5-Omni-7B-GPTQ-Int4    | Optional; requires the `pmsv-local` conda env |
+| `--provider`       | Backend                                  | Notes                             |
+| ------------------ | ---------------------------------------- | --------------------------------- |
+| `gemini` (default) | Google Gemini API                        | Requires `GOOGLE_API_KEY`         |
+| `qwen3-local`      | Local GPU — Qwen3-Omni-30B-A3B-GPTQ-4bit | Requires the `pmsv-qwen3` conda env |
 
 See `src/pmsv_synth/prompts/prompts.md` for the full prompt text.
 

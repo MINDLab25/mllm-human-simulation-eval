@@ -122,14 +122,12 @@ def parse_args() -> argparse.Namespace:
     # ── Provider ────────────────────────────────────────────────────────────
     parser.add_argument(
         "--provider",
-        choices=["gemini", "qwen-local", "qwen3-local"],
+        choices=["gemini", "qwen3-local"],
         default="gemini",
         help=(
             "Inference provider: 'gemini' (default) uses the Gemini API; "
             "'qwen3-local' runs Qwen3-Omni-30B-A3B-GPTQ-4bit on the local GPU "
-            "(requires the pmsv-qwen3 conda env); "
-            "'qwen-local' runs Qwen2.5-Omni-7B-GPTQ-Int4 on the local GPU "
-            "(optional, requires the pmsv-local conda env)."
+            "(requires the pmsv-qwen3 conda env)."
         ),
     )
 
@@ -251,9 +249,7 @@ def main() -> None:
 
     # ── 2a. Sync mode (default) ──────────────────────────────────────────────
     if not use_batch:
-        if args.provider == "qwen-local":
-            from pmsv_synth.inference.qwen_local import run_sync
-        elif args.provider == "qwen3-local":
+        if args.provider == "qwen3-local":
             from pmsv_synth.inference.qwen3_local import run_sync
         else:
             from pmsv_synth.inference.gemini import run_sync
