@@ -180,11 +180,11 @@ All scripts use the canonical CSVs in `data/results/` by default. Run any script
 ## Citation
 
 ```bibtex
-@article{shrestha2026mllm,
-  title={Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation},
-  author={Shrestha, Prabal and Jiang, Bohan and Xue, Haoning and Liu, Huan and Zhou, Xinyi},
-  journal={arXiv preprint},
-  year={2026}
+@inproceedings{shrestha2026mllm,
+  title = {Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation},
+  author = {Shrestha, Prabal and Jiang, Bohan and Xue, Haoning and Liu, Huan and Zhou, Xinyi},
+  booktitle = {Workshop Proceedings of the 20th International AAAI Conference on Web and Social Media},
+  year = {2026}
 }
 ```
 
