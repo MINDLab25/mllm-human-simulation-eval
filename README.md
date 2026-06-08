@@ -1,4 +1,4 @@
-# Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation
+# [Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation](https://workshop-proceedings.icwsm.org/pdf/2026_66.pdf)
 
 *SocialLLM @ ICWSM 2026*
 
